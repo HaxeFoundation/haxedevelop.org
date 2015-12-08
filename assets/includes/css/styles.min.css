@@ -1,10 +1,10 @@
 body{font-family:"Open Sans",sans-serif;font-weight:400;font-size:16px;color:#1e1e1e;}
 body,body p,body td,body li{line-height:1.5;}
-.btn,.btn-large,.btn-medium,.btn-small{border-radius:4px!important}
+.btn,.btn-large,.btn-medium,.btn-small{border-radius:4px!important;}
 h1,h2,h3{font-weight:normal;}
 a,a:hover{color:#257fc2;}
 @media (max-width:767px){body{padding:0 20px;margin:0;}}
-@media (max-width:500px){body .hero-unit h3{font-size:90%}
+@media (max-width:500px){body .hero-unit h3{font-size:90%;}
 body .hero-unit h3 br{display:none;}}
 @media (min-width:979px){.hero-unit,.hero-unit-small{margin-top:49px;}
 body .hero-unit h3 br{display:block;}}
@@ -36,7 +36,7 @@ blockquote{border-color:#5D4037;}
 .dark a.flashdevelop,.dark a.flashdevelop:hover,.dark a.flashdevelop:active{color:#eee;text-decoration:underline;}
 .btn-success{background:rgb(234,130,32);}
 .btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active{color:#ffffff;background:#e5801f;}
-nav#sidebar *{line-height:1.5em}
+nav#sidebar *{line-height:1.5em;}
 nav#sidebar li.active{font-weight:bold;}
 nav#sidebar li{border-left:1px solid #ccc;padding-left:10px;}
 nav#sidebar li li{border-left:0;font-size:14px;}
