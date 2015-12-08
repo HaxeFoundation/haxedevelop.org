@@ -1,0 +1,11 @@
+<h1>HaxeDevelop ::customData.release.version::</h1>
+<h5>Release date: ::currentRelease.date::</h5>
+
+::if customData.release != currentRelease::
+<div class="alert alert-warning" role="alert" >This is an older version of HaxeDevelop. Download the latest version <a href="download.html">here</a>.</div>
+::end::
+  
+<a href="releases/::customData.release.version::/HaxeDevelop ::customData.release.version::.exe" class="btn btn-medium"><i class="fa fa-windows"></i> Download Windows Installer</a><br/>
+<small>For Microsoft Windows XP, Vista, 7+. </small>
+  
+::raw customData.release.changes::

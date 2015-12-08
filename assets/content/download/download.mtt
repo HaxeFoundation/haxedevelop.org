@@ -1,0 +1,6 @@
+<h2>Download HaxeDevelop ::customData.release.version::</h2>
+<h5>Release date: ::currentRelease.date::</h5>
+
+<a href="::currentRelease.version::" class="btn btn-info btn-large"><i class="fa fa-windows"></i> Download Windows Installer</a><br/>
+<small>For Microsoft Windows XP, Vista, 7+. <a href="https://www.codeweavers.com/compatibility/crossover/flashdevelop-5-beta" > Other platforms.</a></small>
+  

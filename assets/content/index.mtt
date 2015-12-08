@@ -1,0 +1,57 @@
+<header class="hero-unit">
+	<div class="container">
+		<img src="img/haxedevelop.svg?v=2" onerror="this.onerror=null; this.src='img/haxedevelop.png'" class="HaxeDevelop logo" alt="HaxeDevelop" />
+		<h3 class="lead">
+			Build and debug cross platform applications using <a href="http://haxe.org/">Haxe</a>. <br/>
+			HaxeDevelop is free and available on Windows.
+		</h3>
+		<p>
+			<a href="download.html" class="btn btn-download">Download ::currentRelease.version:: <i class="fa fa-caret-right"></i></a>
+			<br/>
+			<small>Released: ::currentRelease.date::</small>
+		</p>
+	</div>
+</header>
+
+<section class="dark-section">
+	<div class="container">
+		<div class="row">
+			<div class="span6">
+				<h2>Powerful features</h2>
+				<p class="lead">HaxeDevelop offers first class support for Haxe development: great and fast code completion &amp; code generation, refactoring, projects compilation, debugging, plenty of project templates, etc.</p>
+			</div>
+			<div class="span4">
+				<p>HaxeDevelop is a great developer IDE with integrated source-control support (svn, git, mercurial), tasks/todo, snippets, plugin support, XML/HTML/CSS completion and even built-in zen-coding for HTML.</p>
+				
+				<p><a href="features.html" class="btn">Check all Features &raquo;</a></p>
+			</div>
+	  </div>
+	</div>
+</section>
+
+<hr/>
+
+<section class="container">
+	<div class="row">
+		<div class="span3">
+			<br/>
+			<img src="img/haxedevelop-interface.png" alt="HaxeDevelop interface" width="100%" />
+			
+		</div>
+    <div class="span5">
+			<h3>System Requirements</h3>
+			<ul>
+				<li>Microsoft Windows XP, Vista, 7+ with .NET 3.5</li>
+				<li>Mac OSX/Linux compatible using virtualization software or Wine/CrossOver</li>
+				<li>Native (Qt) Mac OSX/Linux helper is available to improve OS integration</li>
+			</ul>
+		</div>
+		<div class="span4">
+			<h3>Open Source</h3>
+			<p><strong>Join our strong community</strong></p>
+			<p><a href="downloads/builds"><i class="fa fa-cog"></i> Development builds</a></p>
+			<p><a href="https://github.com/HaxeFoundation/haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></p>
+		</div>
+	</div>
+</section>
+

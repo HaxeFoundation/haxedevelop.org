@@ -1,0 +1,73 @@
+::use 'layout-main.mtt'::
+  <header class="hero-unit-small">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <img src="img/haxedevelop-no-outline.svg" onerror="this.onerror=null; this.src='img/haxedevelop.png'" class="logo" alt="HaxeDevelop" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="row">
+      <nav class="span4" id="sidebar">
+        <h3>Documentation</h3>
+        <ul class="unstyled">
+          <li>
+            <a href="system-requirements.html">System requirements</a>
+          </li>
+          <li>
+            <a href="editing.html">Editing</a>
+          </li>
+          <li>
+            <a href="code-generation.html">Code generation</a>
+          </li>
+          <li>
+            <a href="snippets.html">Snippets</a>
+          </li>
+          <li>
+            <a href="keyboard-shortcuts.html">Keyboard shortcuts</a>
+          </li>
+          <li>
+            <a href="themes.html">Themes</a>
+          </li>
+          <li>
+            <a href="syntax-coloring.html">Syntax coloring</a>
+          </li>
+          <li>
+            <a href="backup.html">Backup</a>
+          </li>
+          <li>
+            <a href="language.html">Supported languages</a>
+             <ul class="unstyled">
+               <li>
+                  <a href="language.html#haxe">Haxe</a>
+               </li>
+               <li>
+                  <a href="language.html#html">HTML / XML</a>
+               </li>
+               <li>
+                  <a href="language.html#css">CSS / Less / Sass / HSS</a>
+               </li>
+               <li>
+                  <a href="language.html#js">JSON / JavaScript / TypeScript</a>
+               </li>
+               <li>
+                  <a href="language.html#batch">Batch / Properties</a>
+               </li>
+               <li>
+                  <a href="language.html#actionscript">ActionScript</a>
+               </li>
+            </ul>
+          </li>
+          <li>
+            <a href="plugins.html">Plugins</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="span8">
+        ::raw pageContent::
+      </article>
+    </section>
+  </main>
+::end::
