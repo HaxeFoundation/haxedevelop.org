@@ -12,8 +12,10 @@
 <div class="container">
 	<div class="row">
 		<div class="span4">
+      ::if releases.length > 0::
         <h3>Archive</h3>
         <a href="archive.html">Download older versions here</a>.
+      ::end::
 		</div>
 		<div class="span8">
       ::raw pageContent::
@@ -42,8 +44,8 @@
 			HaxeDevelop is being developed on GitHub. Feel free to contribute, test the latest build and don't forget to star us on Github!
 			
 			<ul class="unstyled">
-				<li><a href="downloads/builds"><i class="fa fa-cog"></i> Development builds</a></li>
-				<li><a href="https://github.com/HaxeFoundation/haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></li>
+				<li><a href="http://flashdevelop.org/downloads/builds/"><i class="fa fa-cog"></i> Development builds</a></li>
+				<li><a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></li>
 			</ul>
 			<h4>Become a supporter</h4>
 			You can help fund the development of HaxeDevelop and this supported project by <a href="http://haxe.org/foundation/donate.html">making a donation</a> to the Haxe Foundation. 

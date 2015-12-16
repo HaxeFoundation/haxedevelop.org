@@ -25,7 +25,7 @@ class Generator {
    * Build the HaxeDevelop website with static website generator.
    * @param doMinify minifies the HTML output.
    */
-  public function build (doMinify:Bool = true) {
+  public function build (doMinify:Bool = false) {
     getReleases();
     addGeneralPages();
     addReleasesPages();

@@ -1,5 +1,6 @@
 ## Release notes 
 
+This is the first HaxeDevelop distro build. 
 This release fixes issues found after the previous release and adds few nice things.
 
 ##### Features, fixes and improvements: (changes)
