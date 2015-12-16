@@ -1,6 +1,6 @@
 <header class="hero-unit">
 	<div class="container">
-		<img src="img/haxedevelop.svg?v=2" onerror="this.onerror=null; this.src='img/haxedevelop.png'" class="HaxeDevelop logo" alt="HaxeDevelop" />
+		<img src="img/haxedevelop.svg?v=2" class="HaxeDevelop logo" alt="HaxeDevelop" />
 		<h3 class="lead">
 			Build and debug cross platform applications using <a href="http://haxe.org/">Haxe</a>. <br/>
 			HaxeDevelop is free and available on Windows.
@@ -50,7 +50,7 @@
 			<h3>Open Source</h3>
 			<p><strong>Join our strong community</strong></p>
       <p><a href="http://flashdevelop.org/downloads/builds/"><i class="fa fa-cog"></i> Development builds</a></p>
-			<p><a href="https://github.com/HaxeFoundation/haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></p>
+			<p><a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></p>
 		</div>
 	</div>
 </section>
