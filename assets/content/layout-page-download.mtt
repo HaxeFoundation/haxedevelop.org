@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="span12">
-        <img src="img/haxedevelop-no-outline.svg" onerror="this.onerror=null; this.src='img/haxedevelop.png'" class="logo" alt="HaxeDevelop" />
+        <img src="img/haxedevelop-horizontal.svg" class="logo" alt="HaxeDevelop" />
       </div>
     </div>
   </div>
