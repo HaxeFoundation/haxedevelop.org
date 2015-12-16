@@ -1,3 +1,4 @@
 @echo off
-cd .
+rmdir "output" /S /Q
+mkdir "output"
 neko Generator.n
