@@ -35,7 +35,7 @@
 		<div class="span4"><h2>Getting started</h2>
 			<p>The Haxe compiler is not implemented in HaxeDevelop and should be downloaded using the App Manager, which is launched on the first run.</p>
 			<ul>
-				<li><a href="features.html">Learn HaxeDevelop</a> </li>
+				<li><a href="editing.html">Learn HaxeDevelop</a> </li>
 				<li><a href="http://haxe.org">Learn Haxe</a> </li>
 			</ul>
 		</div>
