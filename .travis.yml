@@ -1,0 +1,17 @@
+language: haxe
+
+sudo: false
+
+haxe:
+  - "3.2.0"
+  - "3.2.1"
+  - development
+
+install:
+  # setup the libraries required to build
+  - yes | haxelib install markdown
+  - yes | haxelib install hxtemplo
+  - yes | haxelib install hxparse
+
+script:
+  - haxe build.hxml
