@@ -31,10 +31,10 @@ class Generator {
     addReleasesPages();
     addDocumentationPages();
     
-    
     for (page in _pages) {
       // set the data for the page
       var data = {
+        title: "HaxeDevelop - " + page.title, // we're professional now
         year: Date.now().getFullYear(), // we're professional now
         sidebar: _navigation,
         currentRelease: _currentRelease,
@@ -51,17 +51,11 @@ class Generator {
       var html = template.execute(data);
       
       if (doMinify) {
-        // remove spaces and newlines
-        html = html
-          .split("  ").join("")
-          .split("\n").join("")
-          .split("\r").join("")
-          .split("\t").join("")
-          .split("  ").join("");
-          
-        // remove html comments
-        var regexp = new EReg("<!--(.*?)-->", "g");
-        html = regexp.replace(html, "");
+        // strip crap
+        var length = html.length;
+        html = Minifier.removeComments(Minifier.minify(html));
+        var newLength = html.length;
+        trace("optimized " + (Std.int(100 / length * (length - newLength) * 100) / 100) + "%");
       }
       
       // write output into file
@@ -71,11 +65,13 @@ class Generator {
   
   private function addReleasesPages() {
     _pages.push({
+      title: "Archive",
       templatePath: "layout-page-download.mtt",
       contentPath: "download/archive.mtt",
       outputPath: "archive.html",
     }); 
     _pages.push({
+      title: "Download - Latest version " + _currentRelease.version,
       templatePath: "layout-page-download.mtt",
       contentPath: "download/download.mtt",
       outputPath: "download.html",
@@ -83,6 +79,7 @@ class Generator {
     });
     for (release in _releases) {
       _pages.push({
+        title: "Archive - Version " + release.version,
         templatePath: "layout-page-download.mtt",
         contentPath: "download/version.mtt",
         outputPath: "haxedevelop-" + release.version + ".html",
@@ -106,18 +103,21 @@ class Generator {
   
   private function addGeneralPages() {
      _pages.push({
+      title: "Build and debug cross platform applications using Haxe",
       templatePath: "layout-main.mtt",
       contentPath: "index.mtt",
       outputPath: "index.html",
     });
     
     _pages.push({
+      title: "Build and debug cross platform applications using Haxe",
       templatePath: "layout-page-main.mtt",
       contentPath: "index.mtt",
       outputPath: "index.html",
     });
     
     _pages.push({
+      title: "Features overview",
       templatePath: "layout-page.mtt",
       contentPath: "features.html",
       outputPath: "features.html",
@@ -129,12 +129,17 @@ class Generator {
     for (file in FileSystem.readDirectory(contentPath + documentationPath)) {
       if (!FileSystem.isDirectory(contentPath + documentationPath + file)) {
         _pages.push({
+          title: getDocumentationTitle(documentationPath + file),
           templatePath:"layout-page-sidebar.mtt",
           contentPath: documentationPath + file,
           outputPath: getWithoutExtension(file) + ".html",
         });
       }
     }
+  }
+  
+  private function getDocumentationTitle(path:String) {
+    return File.getContent(contentPath + path).split("\n").shift().split("# ").join("");
   }
   
   private static inline function getExtension(file:String) {
@@ -174,6 +179,11 @@ typedef Release = {
   date:String, 
   changes:String
 };
-typedef Page = { templatePath:String,
-          contentPath: String,
-          outputPath: String, ?customData:Dynamic };
+
+typedef Page = { 
+  title:String,
+  templatePath:String,
+  contentPath: String,
+  outputPath: String, 
+  ?customData:Dynamic
+};

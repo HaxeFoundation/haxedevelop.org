@@ -1,5 +1,5 @@
+# Code generation
 
-<h1>Code generation</h1>
 <em><strong><i class="fa fa-keyboard-o"></i> <em>Ctrl+Shift+1</em></strong>: The shortcut for code generation</em>
 
 ### Generate fields from function parameters

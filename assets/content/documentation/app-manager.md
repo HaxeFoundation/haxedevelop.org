@@ -1,4 +1,3 @@
-
 # Installing software
 
 Extend your IDE with the latest related SDKs, runtimes, extensions, plugins and themes.

@@ -1,5 +1,4 @@
-
-<h1>Supported Languages</h1>
+# Supported Languages
   
 <hr id="haxe"/>
 
