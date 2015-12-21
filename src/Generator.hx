@@ -34,7 +34,7 @@ class Generator {
     for (page in _pages) {
       // set the data for the page
       var data = {
-        title: "HaxeDevelop - " + page.title, // we're professional now
+        title: '${page.title} - HaxeDevelop', 
         year: Date.now().getFullYear(), // we're professional now
         sidebar: _navigation,
         currentRelease: _currentRelease,
