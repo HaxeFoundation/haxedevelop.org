@@ -7,3 +7,6 @@ haxe:
 
 hxml:
   - HaxeDevelop.hxml
+
+notifications:
+  email: false
