@@ -1,4 +1,6 @@
 # haxedevelop.org
+[![Build Status](https://travis-ci.org/markknol/haxedevelop.org.svg?branch=master)](https://travis-ci.org/markknol/haxedevelop.org)
+
 > Sources for [haxedevelop.org](http://haxedevelop.org)
 
 _This website is under construction_
@@ -16,7 +18,7 @@ This project contains a static website generator, it is mixing templates and mar
 
 To run the project you need [Haxe](http://haxe.org).
 
-Call `run.bat` to re-generate the output files.
+Call `build-site.bat` to re-generate the output files.
 
 ### Contributing to the generator
 
