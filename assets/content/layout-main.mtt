@@ -8,7 +8,7 @@
   <!-- general css -->
   <link rel="stylesheet" type="text/css" href="http://haxe.org/css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/styles.min.css"/>
-  <link rel="icon" href="http://haxedevelop.stroep.nl/favicon.ico"/>
+  <link rel="icon" href="http://haxedevelop.org/favicon.ico"/>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'/>
 </head>
 <body>
