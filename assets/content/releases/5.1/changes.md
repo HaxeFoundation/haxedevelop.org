@@ -1,42 +1,42 @@
 ## Release notes 
 
 This is the first HaxeDevelop distro build. 
-This release fixes issues found after the previous release and adds few nice things.
 
-##### Features, fixes and improvements: (changes)
+##### List of changes
 
- * Appman config update for FP and AIR SDK 18
- * Added option to remove invalid projects and files from recents
- * UI and theming fixes and improvements
- * Custom scrollbars enabled for Thyleus, Obsidian and 3rd party themes (reapply to fix bad disabled colors)
- * AS3 Flash and AIR templates default to FP18
- * Haxe Flash templates defaults to FP12
- * Haxe doc link update in help menu
- * Results and Output is now limited to 1000 entries in one queue, prevents UI lockups
- * Haxe metadata completion fixes
- * Fix exception caused by interpolation completion in comments
- * CodeFormatter fix, dollar can be in the identifier
- * Windows XP support fixes
+* Added support for AIR/FP 20 and 21
+* More info is now shown in the status bar
+* Added mouse wheel support to window list menu
+* Word highlight color added to the editor dialog
+* [Dialog for move refactoring](https://cloud.githubusercontent.com/assets/1700940/12003384/50c11744-ab2d-11e5-9094-60804182dc4c.gif) added
+* Rename project from ProjectManager added
+* Include available refactor menus in code generation list
+* Less aggressive completion code reformatter
+* Sort imports by package then by name
+* Store watch expressions between FD sessions
+* Lots of new theme settings added and theming fixes and improvements
+* Improved detection and handling of different 8-bit encodings
+* Remove selection and highlights when text is cleared in QuickFind
+* StartPage lost reference to DockPanel on layout restore fixed
+* Added BaseDir to BuildEventVars and fixed FDBuild and ToolsDir paths
+* Fixed `$(FDBuild)` and `$(ToolsDir)` showing wrong values in project properties dialog
+* Support for hotkeys added for converting to uppercase and lowercase in rename form
+* Find and replace in document dialog is now resizable
+* _Control+F_ now focuses find in find and replace dialogs
+* 64-bit version of FlashDevelop added [experimental]
+* Added _.flump_ as json file extension
+* Added _.resx_ as xml file extension
+* Caret policy changed for better position control
+* Delayed FlashConnect and project manager focused on first run
+* Debugger panels are now docked together on first run
+* More Results panel shortcuts added
+* Greatly improved shortcut dialog
+* Fixed interface detection inside SWC files
+* Haxe and AS3 parsing changes, autocompletion should be better in several cases
+* Fixes for several common edge cases in code generation
+* Fixed interface implementation for Haxe
+* Change Haxe search url to new api location
+* Haxe Java/C# templates added
+* Korean translation added
 
-NOTE: Chinese and Japanese translations are partly out of date.
-
-##### Note to customizers
-
- * FD5 is compatible with FD4 but we highly suggest doing a clean install when coming from FD4.
- * You should only use syntax themes made for FD 4.3+
-
-##### Contributor credits
-See: https://github.com/fdorg/flashdevelop/graphs/contributors
-
-##### Future plans
-
- * Improve refactoring more
- * Complete project solutions (pt.2)
- * Good mobile projects integration
- 
-##### Important
-
- * Microsoft .NET 3.5 runtime is now required, even if you already have .NET 4.0 installed.
- * Java 1.6+ 32-bits is required for the Flex compiler and the Debugger for ActionScript 3 development.
- * You can install SDK's and other related software from the AppMan (Tools -> Install Software...)
- * SourceControl plugin depends on TortoiseSVN and TortoiseGit.
+.. and lots of optimizations, other fixes and minor improvements
