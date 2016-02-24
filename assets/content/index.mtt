@@ -50,7 +50,7 @@
 			<h3>Open Source</h3>
 			<p><strong>Join our strong community</strong></p>
       <p><a href="http://flashdevelop.org/downloads/builds/"><i class="fa fa-cog"></i> Development builds</a></p>
-			<p><a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></p>
+			<p><a href="https://github.com/fdorg/flashdevelop/tree/development/Distros"><i class="fa fa-github"></i> HaxeDevelop on Github</a></p>
 		</div>
 	</div>
 </section>

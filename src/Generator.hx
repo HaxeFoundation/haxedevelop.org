@@ -177,7 +177,8 @@ class Generator {
 typedef Release = {
   version:String, 
   date:String, 
-  changes:String
+  changes:String, 
+  links: {standalone:String, installer:String}
 };
 
 typedef Page = { 

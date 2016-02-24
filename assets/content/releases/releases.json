@@ -2,9 +2,10 @@
   "releases": [
     { 
       "version": "5.1", 
-      "date": "14-12-2015",
+      "date": "24-02-2016",
       "links": {
-        "windows": "http://flashdevelop.org/downloads/builds/HaxeDevelop-distro_haxedevelop.exe"
+        "installer": "http://haxedevelop.org/downloads/releases/HaxeDevelop-5.1.0.exe",
+        "standalone": "http://haxedevelop.org/downloads/releases/HaxeDevelop-5.1.0.zip"
       }
     }
   ]

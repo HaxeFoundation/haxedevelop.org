@@ -45,7 +45,7 @@
 			
 			<ul class="unstyled">
 				<li><a href="http://flashdevelop.org/downloads/builds/"><i class="fa fa-cog"></i> Development builds</a></li>
-				<li><a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop"><i class="fa fa-github"></i> HaxeDevelop on Github</a></li>
+				<li><a href="https://github.com/fdorg/flashdevelop/tree/development/Distros"><i class="fa fa-github"></i> HaxeDevelop on Github</a></li>
 			</ul>
 			<h4>Become a supporter</h4>
 			You can help fund the development of HaxeDevelop and this supported project by <a href="http://haxe.org/foundation/donate.html">making a donation</a> to the Haxe Foundation. 
