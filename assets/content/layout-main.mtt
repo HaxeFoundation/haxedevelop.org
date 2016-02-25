@@ -20,11 +20,11 @@
 			<a class="brand sub ide" href="index.html">HAXE DEVELOP</a>
 
 			<div class="nav-collapse collapse">
-				<ul class="nav pull-right search-link-menu">
+				<!--ul class="nav pull-right search-link-menu">
 					<li>
 						<a href="/search"><i class="fa fa-search"></i></a>
 					</li>
-				</ul>
+				</ul-->
 				<ul class="nav">
 					<!-- required submenu  on every subsite -->
 					<li>
