@@ -1,17 +1,24 @@
 # Plugins
 _Tools > User config files > plugins _
 
-### Extensions
+### Creating own plugins
 
-HaxeDevelop extensions are regular *.zip archive files using *.fdz file extension. HaxeDevelop extracts the contents of the archives using additional builtin arguments to extract the contents to the desired locations. You can create these extensions with normal ZIP archive tools. You just need to change the file extension to *.fdz when done.
+Plugins are .NET DLLs, which means that they should be developed in a .NET language, such as C#. You will need HaxeDevelop installed in order to compile and test plugins.
+Looking at existing plugins source is a great source for learning the application architecture.
 
-### Usage
+Once your plugin is built, pick the _.dll_ and copy it to HaxeDevelop's _Plugins_ folder (_HaxeDevelop > Tools > User Config Files_). Open or restart HaxeDevelop.
 
-See <a href="arguments.html">arguments</a> for a full list of supported arguments.
-HaxeDevelop checks if any of the files being installed is an update to an already existing and possible locked (by HaxeDevelop) binary file (*.fdl, *.fdb or *.dll) and if so, will request the user to restart HaxeDevelop to update these files.
-Syntax coloring extensions should use a word "theme" (in any case) in the filename to tell HaxeDevelop to reload and refresh the code editor coloring configuration when the extension has been installed. Also the syntax coloring is now fully dynamic and no other *.xml files (like backups) should be in the Languages directory as they may override the other defined language and syntax coloring settings.
+ * [Plugin development](http://www.flashdevelop.org/wikidocs/index.php?title=Plugin_Development)
+ * [Sample Plugin code](https://github.com/fdorg/flashdevelop/tree/development/External/Plugins/SamplePlugin)
+
+##### Creating plugins with Haxe/C# 
+
+With Haxe you can compile to C#, thus you can write plugins with Haxe. 
+
+* [Download the plugin as project template](https://github.com/skial/FD_PluginTemplate)
+* [Download the Haxe/C# sample plugin](https://github.com/skial/FD_SamplePlugin)
 
 ### More info on FlashDevelop.org
 
- * <a href="http://www.flashdevelop.org/wikidocs/index.php?title=3rd_Party_Plugins_FD4">3rd Party Plugins</a></li>
- * <a href="http://www.flashdevelop.org/wikidocs/index.php?title=Plugin_Development">Plugin development</a></li>
+ * [3rd Party Plugins](http://www.flashdevelop.org/wikidocs/index.php?title=3rd_Party_Plugins_FD4)
+ * [FlashDevelop Plugins forum](http://www.flashdevelop.org/community/viewforum.php?f=4)
