@@ -237,3 +237,24 @@ nav#sidebar li li {
 nav#sidebar li li a {
   color: #777;
 }
+
+article table {
+  min-width:100%;
+}
+
+article table tr:not(:last-child) {
+  border-bottom:1px solid #ccc;
+}
+
+article table td:not(:first-child), article table th:not(:first-child)  {
+  border-left:1px solid #ccc;
+}
+
+article table td, article table th {
+  padding:3px 5px;
+  text-align:left;
+}
+
+article table td:first-child, article table th:first-child { 
+  width:140px;
+}
