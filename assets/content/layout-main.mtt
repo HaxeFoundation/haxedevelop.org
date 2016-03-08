@@ -57,14 +57,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <a href="code-generation.html">Code generation</a>
               </li>
               <li>
-                <a href="snippets.html">Snippets</a>
-              </li>
-              <li>
                 <a href="keyboard-shortcuts.html">Keyboard shortcuts</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="extensions.html">Extensions</a>
               </li>
               <li>
                 <a href="themes.html">Themes</a>
               </li>
+              <li>
+                <a href="plugins.html">Plugins</a>
+              </li>
+              <li>
+                <a href="snippets.html">Snippets</a>
+              </li>
+              <li>
+                <a href="macros.html">Macro scripts</a>
+              </li>
+              <li>
+                <a href="arguments.html">Arguments / Variables</a>
+              </li>
+              <li class="divider"></li>
               <li>
                 <a href="syntax-coloring.html">Syntax coloring</a>
               </li>
@@ -73,9 +87,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </li>
               <li>
                 <a href="language.html">Supported languages</a>
-              </li>
-              <li>
-                <a href="plugins.html">Plugins</a>
               </li>
 						</ul>
 					</li>
