@@ -129,6 +129,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<li>
 								<a href="http://webchat.freenode.net/?channels=haxe"><i class="fa fa-comments-o"></i> IRC</a>
 							</li>
+              <li>
+								<a href="http://haxe.org/blog"><i class="fa fa-rss"></i> Blog</a>
+							</li>
 							<li class="divider"></li>
 							<li>
 								<a href="https://plus.google.com/communities/103302587329918132234"><i class="fa fa-google-plus"></i> Google+</a>
