@@ -16,7 +16,6 @@
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
-    <class path="C:\HaxeToolkit\haxe\lib\hxparse\git\src\hxparse" />
   </classpaths>
   <!-- Build options -->
   <build>
