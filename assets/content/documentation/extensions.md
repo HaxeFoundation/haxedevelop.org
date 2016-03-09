@@ -16,3 +16,5 @@ Syntax coloring extensions should use a word "theme" (in any case) in the filena
  * [Themes](themes.html)
  * [Plugins](plugins.html)
  * [Snippets](snippets.html)
+ * [Macro scripts](macros.html)
+ * [Custom arguments and variables](arguments.html)
