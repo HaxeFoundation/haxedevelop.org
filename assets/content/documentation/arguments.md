@@ -82,3 +82,12 @@ _Here is a list of currently available default arguments:_
 | `$(ItmTypePkgName)` | Item's type qualified name |
 | `$(ItmTypKind)` | Item's type kind (interface, class) |
 | `$(ItmUniqueVar)` | Unique variable name (i, j... etc) |
+
+### Custom arguments
+
+| Variable | Description | Image | 
+|  |  |  |
+| `$$(myValue)` | Custom variable | ![custom arguments](img/custom-argument-1.png) |
+| `$$(myValue=defaultValue)` | Custom variable with default value | ![custom arguments](img/custom-argument-2.png) |
+| `$$(myValue=1,2,3)` | Custom variable with multiple values | ![custom arguments](img/custom-argument-3.png) |
+
