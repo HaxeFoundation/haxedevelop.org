@@ -239,6 +239,10 @@ nav#sidebar li.active {
   font-weight: bold;
 }
 
+nav#sidebar li.active li {
+  font-weight: normal;
+}
+
 nav#sidebar li {
   border-left: 1px solid #ccc;
   padding-left: 10px;
