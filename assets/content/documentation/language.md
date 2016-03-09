@@ -1,6 +1,6 @@
 # Supported Languages
   
-<hr id="haxe"/>
+<a name="haxe"></a>
 
 ## Haxe
 
@@ -18,7 +18,9 @@ Top navigation: _Project > Properties_
 ##### Change global settings
 Top navigation: _Tools > Program settings > HaxeContext_
 
----
+<a name="html"></a>
+<a name="xml"></a>
+<a name="php"></a>
 
 ## HTML / XML / PHP
 
@@ -60,7 +62,7 @@ Top navigation: _Tools > Program settings > XML Completion_
 
 Top navigation: _Tools > Program settings > PHPContext_
 
-<hr id="css"/>
+<a name="css"></a>
 
 ## CSS / Less / Sass  / HSS
 
@@ -78,7 +80,7 @@ It also comes with a minifier to deliver small css files.
 
 Top navigation: _Tools > Program settings > CSS Completion_
 
-<hr id="batch"/>
+<a name="batch"></a>
 
 ## Batch / Properties
 
@@ -89,7 +91,9 @@ It has nice syntax coloring to separate sections and uses content based completi
 
 Top navigation: _Syntax > Batch_,_ Properties _or_ Text_
 
-<hr id="js"/>
+<a name="js"></a>
+<a name="json"></a>
+<a name="typescript"></a>
 
 ## JSON / JavaScript / TypeScript
 
@@ -104,8 +108,7 @@ It uses the content based completion.
 
 Top navigation: _Syntax > Batch_,_ Properties _or_ Text_
 
-
-<hr id="actionscript"/>
+<a name="actionscript"></a>
 
 ## ActionScript
 

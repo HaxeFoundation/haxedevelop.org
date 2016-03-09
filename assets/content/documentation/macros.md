@@ -24,10 +24,10 @@ public class FlattenXML
 }
 ```
 
-##### Save the script
+#### Save the script
 We recommend to save this as _.cs_ file in your user directory (from HaxeDevelop main menu: _Tools > User Config Files_) which corresponds to the `$(BaseDir)` [variable](arguments.html), but it can really be anywhere.
 
-##### Add the script
+#### Add the script
 
 The macro properties are pretty straightforward:
   
@@ -37,7 +37,7 @@ The macro properties are pretty straightforward:
 * **Label** - Text of the menu item
 * **Shortcut** - Obviously a shortcut to execute your macro
 
-##### Test the script
+#### Test the script
 
 For quick testing you can simply select your _.cs_ file manually from main menu: _Macros > Run Script_.
 
