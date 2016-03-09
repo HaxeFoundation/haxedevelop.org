@@ -7,6 +7,7 @@ _Here is a list of currently available default arguments:_
 ### Editor
 
 | Variable | Description |
+|  |  |
 | `$(EntryPoint)` | Selection's start position |
 | `$(ExitPoint)` | Selection's end position |
 | `$(Boundary)` | Keep all text between boundaries |
@@ -21,6 +22,7 @@ _Here is a list of currently available default arguments:_
 ### Filesystem
 
 | Variable | Description |
+|  |  |
 | `$(CurFile)` | Current file |
 | `$(CurFilename)` | Current file's name |
 | `$(CurDir)` | Current file's directory |
@@ -38,6 +40,7 @@ _Here is a list of currently available default arguments:_
 ### Prompt
 
 | Variable | Description |
+|  |  |
 | `$(OpenFile)` | Asks for a file open with a dialog |
 | `$(SaveFile)` | Asks for a file save with a dialog |
 | `$(OpenDir)` | Asks for a directory with a dialog |
@@ -46,6 +49,7 @@ _Here is a list of currently available default arguments:_
 ### Project
 
 | Variable | Description |
+|  |  |
 | `$(FDBuild)` | path to FlashDevelop command line build tool |
 | `$(OutputFile)` | project's Output file path (ie. C:\path\to\MyProject\bin\MyProject.ext) |
 | `$(OutputDir)` | project's Output directory (ie. C:\path\to\MyProject\bin) |
@@ -62,6 +66,7 @@ _Here is a list of currently available default arguments:_
 ### Code model
 
 | Variable | Description |
+|  |  |
 | `$(TypPkg)` | File package |
 | `$(TypName)` | Current type name |
 | `$(TypPkgName)` | Current package + type name |
