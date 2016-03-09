@@ -18,8 +18,8 @@ body .hero-unit h3 br{display:block;}}
 .hero-unit h1,.hero-unit-small h1{margin-bottom:.5em;color:#fff;}
 .hero-unit h1 small,.hero-unit-small h1 small{color:#C06B69;}
 .hero-unit-small h1{margin-bottom:.5em;}
-.logo{width:80%;max-height:230px;margin:1em;}
-.hero-unit-small .logo{margin:1%;max-height:90px;margin:0em;}
+.logo{width:80%;max-width:140px;max-height:230px;margin:1em;}
+.hero-unit-small .logo{margin:1%;margin:0em;max-width:401px;max-height:90px;}
 .hero-unit-small .btn-download{width:134px;height:40px;font-size:20px;line-height:40px;border-width:1px;margin-top:30px;}
 .hero-unit-small .btn-download .fa{top:17px;}
 .hero-unit h3 br{display:block;}

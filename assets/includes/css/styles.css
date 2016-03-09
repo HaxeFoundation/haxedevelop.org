@@ -107,14 +107,16 @@ a, a:hover {
 
 .logo {
   width: 80%;
+  max-width: 140px; 
   max-height: 230px;
   margin: 1em;
 }
 
 .hero-unit-small .logo {
   margin: 1%;
-  max-height: 90px;
   margin: 0em;
+  max-width: 401px; 
+  max-height: 90px;
 }
 
 .hero-unit-small .btn-download {
