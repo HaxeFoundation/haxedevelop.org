@@ -27,6 +27,8 @@ public class FlattenXML
 #### Save the script
 We recommend to save this as _.cs_ file in your user directory (from HaxeDevelop main menu: _Tools > User Config Files_) which corresponds to the `$(BaseDir)` [variable](arguments.html), but it can really be anywhere.
 
+<img src="img/haxedevelop-macros.png" />
+
 #### Add the script
 
 The macro properties are pretty straightforward:
@@ -76,9 +78,9 @@ The template class has 2 methods: RunSnippet and Main. This is a nice way to let
 <ol>
   <li>For most code completion needs you'll have to add a "reference" to FlashDevelop's PluginCore:
   <ul>
-    <li>In SC, select: _Tools > References > File System_
-    <li>Choose `<...>` to browse to HD program files and choose `PluginCore.dll`. Double-click once to add it in the DLL list at the bottom of the dialog, then click _Ok_. You may have to re-add the reference when you restart SC.
+    <li>In SC, select: <em>Tools > References > File System</em>
+    <li>Choose <code>&lt;...&gt;</code> to browse to HD program files and choose PluginCore.dll. Double-click once to add it in the DLL list at the bottom of the dialog, then click <em>Ok</em>. You may have to re-add the reference when you restart SC.
   </ul>
-  <li>You will then simply add a `public static void Execute()` method with your FD script.
-  <li>Code, compile with _Ctrl+Shift+B_ to control your code is ok, then test in HaxeDevelop.
+  <li>You will then simply add a <code>public static void Execute()</code> method with your FD script.
+  <li>Code, compile with <i class="fa fa-keyboard-o"></i> <em>Ctrl+Shift+B</em> to control your code is ok, then test in HaxeDevelop.
 </ol>
