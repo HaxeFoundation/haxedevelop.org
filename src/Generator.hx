@@ -129,7 +129,7 @@ class Generator {
     for (file in FileSystem.readDirectory(contentPath + documentationPath)) {
       if (!FileSystem.isDirectory(contentPath + documentationPath + file)) {
         _pages.push({
-          title: getDocumentationTitle(documentationPath + file),
+          title: getDocumentationTitle(documentationPath + file) + " - documentation",
           templatePath:"layout-page-sidebar.mtt",
           contentPath: documentationPath + file,
           outputPath: getWithoutExtension(file) + ".html",
