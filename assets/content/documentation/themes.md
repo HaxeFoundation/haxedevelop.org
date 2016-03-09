@@ -22,6 +22,8 @@ There are a few themes provided with the installation, but using the <a href="ap
 
 > **Tip:** You can find nice themes created by the community at the <a href="http://www.flashdevelop.org/community/viewforum.php?f=20">FlashDevelop sharing forum section</a>.
 
+![Default HaxeDevelop Themes](img/haxedevelop-themes.gif)
+
 --- 
 
 ## Creating own themes
