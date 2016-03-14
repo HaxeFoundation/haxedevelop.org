@@ -1,6 +1,13 @@
 {
   "releases": [
     { 
+      "version": "5.1.1", 
+      "date": "14-03-2016",
+      "links": {
+        "installer": "http://haxedevelop.org/downloads/releases/HaxeDevelop-5.1.1.exe",
+        "standalone": "http://haxedevelop.org/downloads/releases/HaxeDevelop-5.1.1.zip"
+      }
+    },{ 
       "version": "5.1", 
       "date": "24-02-2016",
       "links": {
