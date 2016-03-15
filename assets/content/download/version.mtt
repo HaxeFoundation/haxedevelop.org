@@ -1,5 +1,5 @@
 <h1>HaxeDevelop ::customData.release.version::</h1>
-<h5>Release date: ::currentRelease.date::</h5>
+<h5>Release date: ::customData.release.date::</h5>
 
 ::if customData.release != currentRelease::
 <div class="alert alert-warning" role="alert" >This is an older version of HaxeDevelop. Download the latest version <a href="download.html">here</a>.</div>
