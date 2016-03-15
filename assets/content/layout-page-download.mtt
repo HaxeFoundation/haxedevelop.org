@@ -13,8 +13,19 @@
 	<div class="row">
 		<div class="span4">
       ::if releases.length > 0::
-        <h3>Archive</h3>
-        <a href="archive.html">Download older versions here</a>.
+        
+        <h3>Versions</h3>
+        ::if customData.release == null || customData.release != currentRelease ::
+        <a href="download.html">Download current release</a><br/>
+        <b>Download older versions</b>
+        ::else::
+        <b>Download current release</b><br/>
+        <a href="archive.html">Download older versions</a>
+        ::end::
+        <hr/>
+        <h3>Nightly builds</h3>
+        <a href="http://flashdevelop.org/downloads/builds/">Development builds</a>&nbsp;<sup class="fa fa-external-link"></sup>
+      
       ::end::
 		</div>
 		<div class="span8">
@@ -44,7 +55,6 @@
 			HaxeDevelop is being developed on GitHub. Feel free to contribute, test the latest build and don't forget to star us on Github!
 			
 			<ul class="unstyled">
-				<li><a href="http://flashdevelop.org/downloads/builds/"><i class="fa fa-cog"></i> Development builds</a></li>
 				<li><a href="https://github.com/fdorg/flashdevelop/tree/development/Distros"><i class="fa fa-github"></i> HaxeDevelop on Github</a></li>
 			</ul>
 			<h4>Become a supporter</h4>
