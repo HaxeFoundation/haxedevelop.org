@@ -1,5 +1,5 @@
 # haxedevelop.org
-[![Build Status](https://travis-ci.org/markknol/haxedevelop.org.svg?branch=master)](https://travis-ci.org/markknol/haxedevelop.org)
+[![Build Status](https://travis-ci.org/HaxeFoundation/haxedevelop.org.svg?branch=master)](https://travis-ci.org/HaxeFoundation/haxedevelop.org)
 
 > Sources for [haxedevelop.org](http://haxedevelop.org)
 
