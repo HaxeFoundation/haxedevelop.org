@@ -48,8 +48,7 @@
 		</div>
 		<div class="span4">
 			<h3>Open Source</h3>
-			<p><strong>Join our strong community</strong></p>
-      <p><a href="http://flashdevelop.org/downloads/builds/"><i class="fa fa-cog"></i> Development builds</a></p>
+			<p>HaxeDevelop is being developed on GitHub. Feel free to contribute, test the latest build and don't forget to star us on Github!</p>
 			<p><a href="https://github.com/fdorg/flashdevelop/tree/development/Distros"><i class="fa fa-github"></i> HaxeDevelop on Github</a></p>
 		</div>
 	</div>
