@@ -98,6 +98,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <li>
                 <a href="language.html">Supported languages</a>
               </li>
+              <li class="divider"></li>
+              <li>
+                <a href="other-haxe-editors.html">Other Haxe Editors</a>
+              </li>
 						</ul>
 					</li>
 
