@@ -136,10 +136,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 						<ul class="dropdown-menu">
 							<li>
-								<a href="https://github.com/HaxeFoundation"><i class="fa fa-github"></i> Github</a>
+								<a href="https://github.com/HaxeFoundation/haxedevelop.org"><i class="fa fa-github"></i> Github</a>
 							</li>
 							<li>
-								<a href="https://github.com/HaxeFoundation/haxe/issues"><i class="fa fa-github"></i> Bug reports</a>
+								<a href="https://github.com/HaxeFoundation/haxedevelop.org/issues"><i class="fa fa-github"></i> Bug reports</a>
 							</li>
 							<li>
 								<a href="http://stackoverflow.com/questions/tagged/haxe"><i class="fa fa-stack-exchange"></i> Stack Overflow</a>
