@@ -35,7 +35,7 @@ The macro properties are pretty straightforward:
   
 * **AutoRun** - Optionally execute macro on startup
 * **Entries** - List of basic macro commands (click `<...>` to edit)
-* **Image** - Pick a icon (number) from `C:\Program Files (x86)\HaxeDevelop\Settings\Images32.png`. Alternative, you can build a nice icon for the menu item using "icomp", a tool included in HaxeDevelop program files (_Tools\icomp_)
+* **Image** - [Pick an icon number](icons.html)
 * **Label** - Text of the menu item
 * **Shortcut** - Obviously a shortcut to execute your macro
 
