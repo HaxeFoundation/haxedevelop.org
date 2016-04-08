@@ -61,6 +61,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <a href="system-requirements.html">System requirements</a>
               </li>
               <li>
+                <a href="configure-haxe.html">Configure Haxe settings</a>
+              </li>
+              <li>
                 <a href="editing.html">Editing</a>
               </li>
               <li>
