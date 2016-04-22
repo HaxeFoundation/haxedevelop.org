@@ -14,7 +14,8 @@ nav .dropdown-menu>.active>a,nav .dropdown-menu>.active>a:hover,nav .dropdown-me
 nav .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,nav .dropdown-submenu:hover>a,nav .dropdown-submenu:focus>a{background:#39332d;}
 nav .navbar .nav>li>.dropdown-menu:after{border-bottom-color:#2c2722;}
 @media (max-width:979px){nav .navbar-fixed-top .navbar-inner,nav .navbar-fixed-bottom .navbar-inner{padding:0px;}
-nav .navbar-fixed-top{margin-bottom:0;}}
+nav .navbar-fixed-top{margin-bottom:0;}
+.nav li.divider{display:none;}}
 .navbar .brand.haxe-logo{padding-right:0;margin:3px 0 0 0px;}
 .navbar .brand.haxe-logo:hover{opacity:.9;}
 .navbar .brand.haxe-logo:after{content:" ";position:absolute;width:0;height:0;border-top:22px solid transparent;border-bottom:22px solid transparent;border-left:7px solid #13110f;top:0;}
