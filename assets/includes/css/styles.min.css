@@ -7,7 +7,12 @@ article h2,article h3,article h4,article h5,article h6{margin-top:20px;}
 article h3{border-bottom:1px dotted #ddd;}
 article h2{border-bottom:1px dotted #aaa;}
 a,a:hover{color:#257fc2;}
-@media (max-width:767px){body{padding:0 20px;margin:0;}}
+@media (max-width:767px){body{padding:0}
+.container{padding:0 20px;margin:0;}
+.navbar-fixed-top,.navbar-fixed-bottom,.navbar-static-top{margin-left:0;margin-right:0;}
+main.container section{display:flex;flex-direction:column;}
+main.container section article{order:1;}
+main.container section nav{order:2;}}
 @media (max-width:500px){body .hero-unit h3{font-size:90%;}
 body .hero-unit h3 br{display:none;}}
 @media (min-width:979px){.hero-unit,.hero-unit-small{margin-top:49px;}

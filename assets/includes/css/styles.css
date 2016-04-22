@@ -37,14 +37,30 @@ a, a:hover {
 }
 
 @media (max-width: 767px) {
-  body {
+  body {padding:0}
+  .container {
     padding: 0 20px;
     margin: 0;
+  }
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  main.container section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main.container section article {
+    order: 1;
+  }
+  main.container section nav {
+    order: 2;
   }
 }
 
 @media (max-width: 500px) {
-	
   body .hero-unit h3 {
     font-size: 90%;
   }
