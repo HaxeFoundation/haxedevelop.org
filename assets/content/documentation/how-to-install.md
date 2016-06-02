@@ -2,7 +2,7 @@
 
 ### Windows
 
-1. Download Notepad++. You can download HaxeDevelop by clicking [here](http://haxedevelop.org/download.html). Click on the "Download" button, and the program will begin downloading to your computer.
+1. Download HaxeDevelop. You can download HaxeDevelop by clicking [here](http://haxedevelop.org/download.html). Click on the "Download" button, and the program will begin downloading to your computer.
 1. Open your "Downloads" folder. After the download is completed, there will be a HaxeDevelop installer. Double click on the installer to begin the installation process.
 1. The installation process you have these settings:
   
@@ -14,7 +14,7 @@
 1. Select the destination folder and press the  _install_ button.
 1. Read the information on the final window and click on the "Finish" button.
   
-### OSx
+### OS X
 
 1. Install brew
 1. `brew install wine`
