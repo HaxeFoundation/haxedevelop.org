@@ -4,3 +4,4 @@
 -cp src
 -neko Generator.n
 -main Main
+-dce no
