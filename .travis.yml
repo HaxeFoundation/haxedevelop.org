@@ -14,7 +14,7 @@ after_script:
   - lessc assets/includes/css/styles.css assets/includes/css/styles.min.css --clean-css="--s1 --advanced"
   - mkdir output
   - neko Generator.n
-  - bash deploy.sh
+  - bash -v deploy.sh
   
 notifications:
   email: false
