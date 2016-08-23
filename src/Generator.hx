@@ -4,6 +4,7 @@ import haxe.Json;
 import sys.FileSystem;
 import sys.io.File;
 import templo.Template;
+using StringTools;
 
 /**
  * @author Mark Knol
@@ -11,6 +12,7 @@ import templo.Template;
 class Generator {
   public var contentPath = "./";
   public var outputPath = "./";
+  public var basePath = "";
   
   private var _pages:Array<Page> = [];
   private var _navigation = [];
@@ -30,20 +32,27 @@ class Generator {
     addGeneralPages();
     addReleasesPages();
     addDocumentationPages();
+    addBlogPages();
     
     for (page in _pages) {
       // set the data for the page
       var data = {
         title: '${page.title} - HaxeDevelop', 
         year: Date.now().getFullYear(), // we're professional now
+        currentDate: Date.now(), 
+        baseHref: getBaseHref(page),
         sidebar: _navigation,
+        pages: _pages,
+        currentPage: page,
         currentRelease: _currentRelease,
         releases: _releases,
         pageContent: null,
+        absoluteUrl: getAbsoluteUrl(page),
         customData: page.customData
       }
-      data.pageContent = getContent(contentPath + page.contentPath, data);
-      
+      if (page.contentPath != null) {
+        data.pageContent = page.pageContent = getContent(contentPath + page.contentPath, data);
+      }
       trace("generating " + outputPath + page.outputPath);
       
       // execute the template
@@ -59,9 +68,51 @@ class Generator {
       }
       
       // write output into file
+      var targetDirectory = getDirectoryPath(outputPath + page.outputPath);
+      if (!FileSystem.exists(targetDirectory)) {
+        FileSystem.createDirectory(targetDirectory);
+      }
+      // write output into file
       File.saveContent(outputPath + page.outputPath, html);
     }
   }
+
+  function addBlogPages() 
+  {
+    var blogs:Array<Page> = [];
+    var blogPath = "/blog/";
+    var files = FileSystem.readDirectory(contentPath + blogPath);
+    files.reverse();
+    for (file in files) {
+      if (!FileSystem.isDirectory(contentPath + blogPath + file)) {
+        var date = file.split(" ")[0];
+        var id = getWithoutExtension(file.split(" ")[1]);
+        var page = {
+          title: getDocumentationTitle(blogPath + file),
+          templatePath:"layout-page-blog.mtt",
+          contentPath: blogPath + file,
+          outputPath: 'blog/$date/$id.html',
+          customData: {fullDate: Date.fromString(date), date: date, blogs:blogs}
+        };
+        blogs.push(page);
+        _pages.push(page);
+      }
+    }
+    _pages.push({
+      title: "RSS feed",
+      templatePath: "rss.mtt",
+      contentPath: null,
+      outputPath: "rss.xml",
+      customData: {blogs:blogs}
+    });
+    _pages.push({
+      title: "Blog",
+      templatePath:"layout-page-blog.mtt",
+      contentPath: "blog.mtt",
+      outputPath: "blog/index.html",
+      customData: {blogs:blogs}
+    });
+	}
   
   private function addReleasesPages() {
     _pages.push({
@@ -101,6 +152,15 @@ class Generator {
     return 'releases/${r.version}/';
   }
   
+  private function getBaseHref(page:Page) {
+    if (page.outputPath == "404.html") {
+      return basePath;
+    }
+    var href = [for (s in page.outputPath.split("/")) ".."];
+    href[0] = ".";
+    return href.join("/");
+  }
+  
   private function addGeneralPages() {
      _pages.push({
       title: "Build and debug cross platform applications using Haxe",
@@ -122,6 +182,13 @@ class Generator {
       contentPath: "features.html",
       outputPath: "features.html",
     });
+    
+    _pages.push({
+      title: "Page not found",
+      templatePath: "layout-page-main.mtt",
+      contentPath: "404.mtt",
+      outputPath: "404.html",
+    });
   }
   
   private function addDocumentationPages() {
@@ -142,8 +209,18 @@ class Generator {
     return File.getContent(contentPath + path).split("\n").shift().split("# ").join("");
   }
   
+  public inline function getAbsoluteUrl(page:Page) {
+    return basePath + page.outputPath;
+  }
+  
+  private static inline function getDirectoryPath(file:String) {
+    var paths = file.split("/");
+    paths.pop();
+    return paths.join("/");
+  }
+  
   private static inline function getExtension(file:String) {
-   return file.split(".").pop();
+    return file.split(".").pop();
   }
   
   private static inline function getWithoutExtension(file:String) {
@@ -186,5 +263,6 @@ typedef Page = {
   templatePath:String,
   contentPath: String,
   outputPath: String, 
+  ?pageContent: String, 
   ?customData:Dynamic
 };

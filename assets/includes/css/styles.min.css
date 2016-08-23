@@ -38,7 +38,7 @@ body .hero-unit h3 br{display:block;}}
 .secondary-section h3 a:hover{color:#eee;text-decoration:underline;}
 .dark{background:rgb(20,20,25);color:#fff;}
 .dark-section{background:rgb(20,20,25);color:#fff;padding:2em 1em;}
-footer{margin-top:40px;font-size:12px;}
+footer{margin-top:40px;font-size:13px;}
 .copyright{padding:6px;overflow:hidden;text-align:center;margin:40px 0;}
 blockquote{border-color:#5D4037;}
 .dark a,.dark a:hover,.dark a:active{color:rgb(234,130,32);}
@@ -56,3 +56,4 @@ article table tr:not(:last-child){border-bottom:1px solid #ccc;}
 article table td:not(:first-child),article table th:not(:first-child){border-left:1px solid #ccc;}
 article table td,article table th{padding:3px 5px;text-align:left;}
 article table td:first-child,article table th:first-child{width:140px;}
+.blog-article{border:1px solid #eee;margin-bottom:2em;padding:1em 2em;}

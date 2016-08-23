@@ -217,7 +217,7 @@ a, a:hover {
 
 footer {
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .copyright {
@@ -294,4 +294,10 @@ article table td, article table th {
 
 article table td:first-child, article table th:first-child { 
   width:140px;
+}
+
+.blog-article {
+  border:1px solid #eee;
+  margin-bottom:2em;
+  padding: 1em 2em;
 }

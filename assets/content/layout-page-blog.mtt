@@ -1,0 +1,66 @@
+::use 'layout-main.mtt'::
+  <header class="hero-unit-small">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <img src="img/haxedevelop-horizontal.svg" itemprop="logo" class="logo" alt="HaxeDevelop" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="row">
+      <nav class="span4" id="sidebar">
+        <h3>Blog</h3>
+        <ul class="unstyled">
+          ::foreach blog currentPage.customData.blogs::
+          <li ::attr class if(currentPage == blog) "active" else ""::><small>::blog.customData.date::</small> <a href="::blog.outputPath::">::blog.title::</a></li>
+          ::end::
+        </ul>
+      </nav>
+      <div class="span8">
+        ::set isBlogHome = currentPage.customData.blogs.indexOf(currentPage)==-1::
+        ::if isBlogHome::
+          ::raw pageContent::
+        ::else::
+        <article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+          <h1 itemprop="name">::currentPage.title::</h1>
+          <p style="display:none"><span itemprop="author">HaxeDevelop team</span><span itemprop="publisher">HaxeDevelop.org</span></p>
+          <p><em>Published <span itemprop="datePublished">::currentPage.customData.date::</span></em></p>
+          <hr/>
+          <p itemprop="blogPost">::raw currentPage.pageContent.split("</h1>").pop()::</p>
+          <hr/>
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1262989380379424";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            &nbsp;&nbsp;
+            <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <hr/>
+          
+            <div id="disqus_thread"></div>
+              <script>
+              var disqus_config = function () {
+                  this.page.url = 'http://haxedevelop.org/::currentPage.outputPath::'; 
+                  this.page.identifier = '::currentPage.outputPath.split(".html")[0]::'; 
+              };
+              
+              (function() {
+                  var d = document, s = d.createElement('script');
+                  s.src = '//haxedevelop.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </article>
+        ::end::
+      </div>
+    </section>
+  </main>
+   <script id="dsq-count-scr" src="//haxedevelop.disqus.com/count.js" async="async"></script>
+::end::
