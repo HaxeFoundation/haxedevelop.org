@@ -7,13 +7,18 @@ haxe:
 hxml:
   - HaxeDevelop.hxml
 
-after_script:
+install:
+  - yes | haxelib install HaxeDevelop.hxml
+  - haxe HaxeDevelop.hxml
   - npm install -g less
   - npm install -g less-plugin-clean-css
   - lessc assets/includes/css/haxe-nav.css assets/includes/css/haxe-nav.min.css --clean-css="--s1 --advanced"
   - lessc assets/includes/css/styles.css assets/includes/css/styles.min.css --clean-css="--s1 --advanced"
   - mkdir output
   - neko Generator.n
+
+script:
+  # deploy
   - bash -v deploy.sh
   
 notifications:
