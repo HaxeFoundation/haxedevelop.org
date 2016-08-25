@@ -20,7 +20,7 @@ Notice that the required imports will automatically be added to your code.
 <img src="img/haxedevelop-override.gif" alt="Method override generation" />
 
 ### Event handlers generation
-Write an addEventListener call (for example in NME/openFL), move your cursor on the (missing) handler's name and press <i class="fa fa-keyboard-o"></i> _Ctrl+Shift+1_ to generate the event handler.
+Write an addEventListener call (for example in NME/OpenFL), move your cursor on the (missing) handler's name and press <i class="fa fa-keyboard-o"></i> _Ctrl+Shift+1_ to generate the event handler.
 
 <code>addEventListener(type, Ctrl+Shift+1</code>  
 

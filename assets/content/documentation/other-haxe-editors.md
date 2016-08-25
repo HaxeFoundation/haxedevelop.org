@@ -4,7 +4,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | HaxeDevelop | Windows | Free | Open Source | - |
 | [IntelliJ IDEA](#intellij) | Windows, Mac, Linux | Free | Apache License 2.0 | [Haxe Support](http://plugins.jetbrains.com/plugin/6873?pr=idea) |
-| [VIM](#vim) |Mac, Linux | Free | Opensource | [Vaxe plugin](https://github.com/jdonaldson/vaxe) |
+| [VIM](#vim) |Mac, Linux | Free | Open Source | [Vaxe plugin](https://github.com/jdonaldson/vaxe) |
 | [Atom](#atom) | Windows, Mac, Linux, FreeBSD | Free | Open Source | [language-haxe](https://atom.io/packages/language-haxe) |
 | [Brackets](#brackets) | Windows, Mac, Linux | Free | Open Source | [haxe-brackets-extension](https://github.com/jasononeil/haxe-brackets-extension) |
 | [VSCode](#vscode) | Windows, Mac, Linux | Free | Open Source | [vscode-haxe](https://marketplace.visualstudio.com/items?itemName=haxedevs.haxe) |

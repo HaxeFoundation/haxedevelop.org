@@ -7,9 +7,9 @@
 1. The installation process you have these settings:
   
     - Preferred language - Default English
-    - Standalone/portable mode - Runs as statndalone using only local setting files
-    - Multi instance mode - Allows multiple instances of Haxedevelop to be executed.
-    - Registry modifications - Associates integral file types and adds the required unstall configuration
+    - Standalone/portable mode - Runs as standalone using only local setting files
+    - Multi instance mode - Allows multiple instances of HaxeDevelop to be executed.
+    - Registry modifications - Associates integral file types and adds the required uninstall configuration
     
 1. Select the destination folder and press the  _install_ button.
 1. Read the information on the final window and click on the "Finish" button.

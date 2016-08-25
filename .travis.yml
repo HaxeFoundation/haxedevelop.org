@@ -12,12 +12,15 @@ install:
   - haxe HaxeDevelop.hxml
   - npm install -g less
   - npm install -g less-plugin-clean-css
+  - npm install -g markdown-spellcheck
   - lessc assets/includes/css/haxe-nav.css assets/includes/css/haxe-nav.min.css --clean-css="--s1 --advanced"
   - lessc assets/includes/css/styles.css assets/includes/css/styles.min.css --clean-css="--s1 --advanced"
   - mkdir output
   - neko Generator.n
 
 script:
+  # spellcheck
+  - mdspell "**/*.md" --ignore-numbers --ignore-acronyms --report
   # deploy
   - bash -v deploy.sh
   

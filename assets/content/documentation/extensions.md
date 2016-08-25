@@ -2,7 +2,7 @@
 
 > HaxeDevelop extensions are regular *.zip archive files using *.fdz file extension. 
 
-HaxeDevelop extracts the contents of the archives using additional builtin arguments to extract the contents to the desired locations. You can create these extensions with normal ZIP archive tools. You just need to change the file extension to *.fdz when done.
+HaxeDevelop extracts the contents of the archives using additional built-in arguments to extract the contents to the desired locations. You can create these extensions with normal ZIP archive tools. You just need to change the file extension to *.fdz when done.
 
 ### Usage
 

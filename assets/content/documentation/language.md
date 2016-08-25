@@ -6,7 +6,7 @@
 
 HaxeDevelop uses the Haxe completion service to make authoring Haxe easy as you would expect. 
 In addition to syntactical features like formatting, class hierarchy and outlining, 
-you also get language service features such as goto declararation, find all references 
+you also get language service features such as goto declaration, find all references 
 and refactoring features (rename, move).
 
 ##### Create Haxe project
@@ -35,7 +35,7 @@ Zen-coding is developed and optimised for web-developers whose workflow depends 
 
 ##### Using zen-coding
 
-Enter a CSS like abbriviation press _<i class="fa fa-keyboard-o"></i> CTRL-B_
+Enter a CSS like abbreviation press _<i class="fa fa-keyboard-o"></i> CTRL-B_
 
 ```
 html>head+body>header+section#container+footer
@@ -66,8 +66,8 @@ Top navigation: _Tools > Program settings > PHPContext_
 
 ## CSS / Less / Sass  / HSS
 
-HaxeDevelop maximizes the webdeveloper workflow with
-built-in support for editing stylesheets in 
+HaxeDevelop maximizes the web developer workflow with
+built-in support for editing style sheets in 
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> (.css), 
 <a href="http://sass-lang.com/">Sass</a> (.scss), 
 <a href="http://lesscss.org/">Less</a> (.less) and 

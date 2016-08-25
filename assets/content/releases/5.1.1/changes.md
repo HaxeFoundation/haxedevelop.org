@@ -19,9 +19,9 @@ This release contains minor changes and bug fixes.
  * AppMan now requests a restart when installing executable files
  * Do not throw an error when socket is already in use with FlashConnect
  * Do not show user dir templates in standalone mode
- * Added commandline argument `"config"` to AppMan for custom config files
+ * Added command-line argument `"config"` to AppMan for custom config files
  * Removed uncustomizable shortcut: _Completion.Delete_
  * Removed unnecessary message parts from silent FDZ install
  * Default file extension is now distro specific (HD)
- * Minor startpage fixes (HD)
+ * Minor start page fixes (HD)
  * Minor localization fixes

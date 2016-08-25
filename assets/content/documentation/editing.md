@@ -1,6 +1,6 @@
 # Learning the editor
 
-### Intellisense
+### IntelliSense
 
 We'll always offer word completion, but for our main languages, we offer true IntelliSense.
 

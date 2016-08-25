@@ -43,7 +43,7 @@ The macro properties are pretty straightforward:
 
 For quick testing you can simply select your _.cs_ file manually from main menu: _Macros > Run Script_.
 
-During development, use this action to make sure the script is reloaded/recompiled everytime:
+During development, use this action to make sure the script is reloaded/recompiled every time:
 
 ```
 ExecuteScript|Development;$(BaseDir)\FlattenXML.cs

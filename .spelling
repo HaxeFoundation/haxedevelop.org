@@ -1,0 +1,114 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+HaxeDevelop
+haxe
+SDKs
+haxedevelop.org
+runtimes
+plugins
+dialog
+FlashDevelop
+const
+fdz
+OpenFL
+HaxeContext
+hxproj
+haxelibs
+CompletionServer
+IntelliSense
+CamelCase
+fdl
+fdb
+dll
+coloring
+xml
+standalone
+icomp
+goto
+zen-coding
+PHPContext
+sass
+css
+scss
+hss
+minifier
+ini
+cmd
+js
+json
+ts
+tsc
+ActionScript
+AS3Context
+AS2Context
+cs
+config
+AutoRun
+startup
+PluginCore
+ok
+plugin
+IntelliJ
+Vaxe
+VSCode
+vscode-haxe
+haxe-sublime2-bundle
+favorite
+flashdevelop.org
+dropdown
+virtualization
+fdi
+SettingsDialog
+OpenResource
+dir
+SourceControl
+AppMan
+Solarized
+TortoiseHg
+FlashConnect
+uncustomizable
+color
+ProjectManager
+reformatter
+QuickFind
+StartPage
+DockPanel
+BaseDir
+BuildEventVars
+FDBuild
+ToolsDir
+hotkeys
+uppercase
+lowercase
+resizable
+dialogs
+Github
+hxtemplo
+haxelib
+ - assets/content/documentation/arguments.md
+MyProject
+MyProject.ext
+MyProject.fdproj
+i
+ - assets/content/documentation/code-generation.md
+override'-space
+addEventListener
+ - assets/content/documentation/editing.md
+dt
+DateTools
+Shift-F4
+ - assets/content/documentation/language.md
+_
+ - assets/content/documentation/macros.md
+RunSnippet
+ReadKey
+ - assets/content/documentation/themes.md
+theme.fdi
+ - assets/content/releases/5.1.1/changes.md
+Completion.Delete
+ - assets/content/releases/5.1/changes.md
+flump
+resx

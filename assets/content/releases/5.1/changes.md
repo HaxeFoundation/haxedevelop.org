@@ -35,7 +35,7 @@ This is the first HaxeDevelop distro build.
 * Haxe and AS3 parsing changes, autocompletion should be better in several cases
 * Fixes for several common edge cases in code generation
 * Fixed interface implementation for Haxe
-* Change Haxe search url to new api location
+* Change Haxe search URL to new API location
 * Haxe Java/C# templates added
 * Korean translation added
 
