@@ -51,15 +51,15 @@ _Here is a list of currently available default arguments:_
 | Variable | Description |
 |  |  |
 | `$(FDBuild)` | path to FlashDevelop command line build tool |
-| `$(OutputFile)` | project's Output file path (i.e.. C:\path\to\MyProject\bin\MyProject.ext) |
-| `$(OutputDir)` | project's Output directory (i.e.. C:\path\to\MyProject\bin) |
-| `$(OutputName)` | project's Output file name (i.e.. MyProject.ext) |
-| `$(ProjectName)` | project's name (i.e.. MyProject) |
-| `$(ProjectDir)` | project's Output directory (i.e.. C:\path\to\MyProject) |
-| `$(ProjectPath)` | project's Output directory (i.e.. C:\path\to\MyProject\MyProject.fdproj) |
-| `$(BuildConfig)` | project's target configuration (i.e.. release or debug) |
-| `$(TargetPlatform)` | project's target platform (i.e.. Haxe/JavaScript/etc.) |
-| `$(TargetVersion)` | project's platform target version (i.e.. 11.1 for Flash target) |
+| `$(OutputFile)` | project's Output file path (i.e. C:\path\to\MyProject\bin\MyProject.ext) |
+| `$(OutputDir)` | project's Output directory (i.e. C:\path\to\MyProject\bin) |
+| `$(OutputName)` | project's Output file name (i.e. MyProject.ext) |
+| `$(ProjectName)` | project's name (i.e. MyProject) |
+| `$(ProjectDir)` | project's Output directory (i.e. C:\path\to\MyProject) |
+| `$(ProjectPath)` | project's Output directory (i.e. C:\path\to\MyProject\MyProject.fdproj) |
+| `$(BuildConfig)` | project's target configuration (i.e. release or debug) |
+| `$(TargetPlatform)` | project's target platform (i.e. Haxe/JavaScript/etc.) |
+| `$(TargetVersion)` | project's platform target version (i.e. 11.1 for Flash target) |
 | `$(TargetBuild)` | project's target build name (value entered in the second drop-down right to configuration) |
 | `$(CompilerPath)` | path to the project's selected compiler SDK |
   
@@ -73,7 +73,7 @@ _Here is a list of currently available default arguments:_
 | `$(TypKind)` | Type kind (interface, class) |
 | `$(TypClosestListName)` | Closest Array or Vector var name |
 | `$(TypClosestListItemType)` | Closest Vector item type |
-| `$(MbrName)` | Current member, i.e.. current method |
+| `$(MbrName)` | Current member, i.e. current method |
 | `$(MbrKind)` | Member kind (const, var, function) |
 | `$(MbrTypPkg)` | Member's type package |
 | `$(MbrTypName)` | Members's type name |
