@@ -11,6 +11,6 @@ class Main{
     
     generator.build(true);
     generator.includeDirectory("assets/includes");
-    
+    generator.includeDirectory("assets/content/releases", "output/downloads/releases");
   }
 }
