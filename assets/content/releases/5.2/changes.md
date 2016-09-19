@@ -11,7 +11,6 @@ This release contains fixes and improvements.
 * Refactoring, parsing, code completion and generation improvements and bug fixes
 * All purpose code formatter (AStyle) added for other C like languages (Haxe, JS, C#, CPP, etc...)
 * Document tabs with long filenames is now compacted better
-* Shortcut key process mechanism updated with advanced control
 * Restart required button added to the right corner of the toolbar
 * Loom templates, snippets and plugin removed from default install and added to an extension
 * Move refactoring can now use a package name syntax
