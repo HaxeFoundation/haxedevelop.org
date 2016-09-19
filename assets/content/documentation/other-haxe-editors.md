@@ -1,5 +1,8 @@
 # Other Haxe IDEs / Code editors
 
+There are other editors available which can be used to develop Haxe.
+
+
 | Name | Platform | Price | License | Plugin |
 | ---- | ---- | ---- | ---- | ---- |
 | HaxeDevelop | Windows | Free | Open Source | - |

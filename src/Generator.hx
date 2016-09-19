@@ -89,6 +89,7 @@ class Generator {
         var id = getWithoutExtension(file.split(" ")[1]);
         var page = {
           title: getDocumentationTitle(blogPath + file),
+          description: getDescription(blogPath + file),
           templatePath:"layout-page-blog.mtt",
           contentPath: blogPath + file,
           outputPath: 'blog/$date/$id.html',
@@ -101,12 +102,14 @@ class Generator {
     _pages.push({
       title: "RSS feed",
       templatePath: "rss.mtt",
+      description:null,
       contentPath: null,
       outputPath: "rss.xml",
       customData: {blogs:blogs}
     });
     _pages.push({
       title: "Blog",
+      description: "Announcements, Case Studies and Tech Insights from the HaxeDevelop team",
       templatePath:"layout-page-blog.mtt",
       contentPath: "blog.mtt",
       outputPath: "blog/index.html",
@@ -116,13 +119,15 @@ class Generator {
   
   private function addReleasesPages() {
     _pages.push({
-      title: "Archive",
+      title: "archive",
+      description: "Download older versions of HaxeDevelop",
       templatePath: "layout-page-download.mtt",
       contentPath: "download/archive.mtt",
       outputPath: "archive.html",
     }); 
     _pages.push({
-      title: "Download - Latest version " + _currentRelease.version,
+      title: "Download - Latest version HaxeDevelop " + _currentRelease.version,
+			description:  "HaxeDevelop " + _currentRelease.version + " is released " + _currentRelease.date,
       templatePath: "layout-page-download.mtt",
       contentPath: "download/download.mtt",
       outputPath: "download.html",
@@ -131,6 +136,7 @@ class Generator {
     for (release in _releases) {
       _pages.push({
         title: "Archive - Version " + release.version,
+        description:  "HaxeDevelop " + _currentRelease.version + " is released " + _currentRelease.date,
         templatePath: "layout-page-download.mtt",
         contentPath: "download/version.mtt",
         outputPath: "haxedevelop-" + release.version + ".html",
@@ -164,6 +170,7 @@ class Generator {
   private function addGeneralPages() {
      _pages.push({
       title: "Build and debug cross platform applications using Haxe",
+      description: "HaxeDevelop " + _currentRelease.version +" is free and available on Windows",
       templatePath: "layout-main.mtt",
       contentPath: "index.mtt",
       outputPath: "index.html",
@@ -171,6 +178,7 @@ class Generator {
     
     _pages.push({
       title: "Build and debug cross platform applications using Haxe",
+      description: "HaxeDevelop " + _currentRelease.version +" is free and available on Windows",
       templatePath: "layout-page-main.mtt",
       contentPath: "index.mtt",
       outputPath: "index.html",
@@ -178,6 +186,7 @@ class Generator {
     
     _pages.push({
       title: "Features overview",
+      description: "A guided tour through HaxeDevelop. HaxeDevelop aims to have the best code completion and contextual code generation for Haxe development.",
       templatePath: "layout-page.mtt",
       contentPath: "features.html",
       outputPath: "features.html",
@@ -185,6 +194,7 @@ class Generator {
     
     _pages.push({
       title: "Page not found",
+      description: null,
       templatePath: "layout-page-main.mtt",
       contentPath: "404.mtt",
       outputPath: "404.html",
@@ -197,6 +207,7 @@ class Generator {
       if (!FileSystem.isDirectory(contentPath + documentationPath + file)) {
         _pages.push({
           title: getDocumentationTitle(documentationPath + file) + " - Documentation",
+          description: getDescription(documentationPath + file),
           templatePath:"layout-page-sidebar.mtt",
           contentPath: documentationPath + file,
           outputPath: getWithoutExtension(file) + ".html",
@@ -208,7 +219,14 @@ class Generator {
   private function getDocumentationTitle(path:String) {
     return File.getContent(contentPath + path).split("\n").shift().split("# ").join("");
   }
-  
+	
+  private function getDescription(path:String) {
+		// TODO: make less hackish
+		var lines = File.getContent(contentPath + path).split("\n");
+		function trim(v:String):String return v.replace("#", "").replace(">", " ").replace("_", "").replace("*", "");
+    return trim(lines[2]) + " "+ trim(lines[3]) +" "+ trim(lines[4]);
+  }
+	
   public inline function getAbsoluteUrl(page:Page) {
     return basePath + page.outputPath;
   }
@@ -260,6 +278,7 @@ typedef Release = {
 
 typedef Page = { 
   title:String,
+  description:String,
   templatePath:String,
   contentPath: String,
   outputPath: String, 

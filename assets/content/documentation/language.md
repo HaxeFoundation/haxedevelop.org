@@ -1,5 +1,8 @@
 # Supported Languages
   
+HaxeDevelop is a great coding environment since it supports many different code languages and provides syntax highlighting and other features: 
+
+
 <a name="haxe"></a>
 
 ## Haxe

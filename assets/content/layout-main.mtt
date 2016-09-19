@@ -13,14 +13,18 @@
   <link rel="stylesheet" type="text/css" href="http://haxe.org/css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/styles.min.css"/>
   <link rel="icon" href="http://haxedevelop.org/favicon.ico"/>
+  <meta property="og:url" content="::absoluteUrl::" />
+
+	<meta name="description" content="::currentPage.description::" ::cond currentPage.description != null:: />
 
   <!-- Twitter Card data -->
   <meta name="twitter:creator" content="@haxe_org"/>
 
   <!-- Open Graph data -->
   <meta property="og:title" content="::title::" />
+	<meta property="og:description" content="::currentPage.description::" ::cond currentPage.description != null:: />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="http://haxedevelop.org/" />
+  <meta property="og:url" content="::absoluteUrl::" />
   <meta property="og:image" content="http://haxedevelop.org/img/share.jpg" />
   
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'/>
