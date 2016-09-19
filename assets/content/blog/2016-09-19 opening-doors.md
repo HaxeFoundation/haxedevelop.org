@@ -10,7 +10,7 @@ We have also released HaxeDevelop 5.2. This release fixes and improves several t
 * **[Click here to download it](http://haxedevelop.org/download.html).**
 
 As you can see this new version is considered to be minor but we believe it is an important release. We plan to use it as a point of change, even if there may be new minor releases fixing possible problems in HaxeDevelop&nbsp;5.2, work for HaxeDevelop&nbsp;6 _will start now_. 
-We will make bigger changes to parts of code, the application will move to .NET&nbsp;4.0 or possibly a newer version, and we will start accepting commits making use of C#&nbsp;6 syntax. 
+We will make bigger changes to some parts of code, we will start accepting commits making use of C#&nbsp;6 syntax and changes possibly breaking backwards compatibility.
 We firmly believe all of these changes will help to make the IDE grow bigger and better.
 
 There will be new posts in the near future, we hope you are as excited as we are and that all of these changes pan out in the end.
