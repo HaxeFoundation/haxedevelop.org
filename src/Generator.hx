@@ -67,6 +67,9 @@ class Generator {
         trace("optimized " + (Std.int(100 / length * (length - newLength) * 100) / 100) + "%");
       }
       
+      // fix rss feed line ends
+      if (page.outputPath == "rss.xml") html = html.split("\n").join("\r\n");
+      
       // write output into file
       var targetDirectory = getDirectoryPath(outputPath + page.outputPath);
       if (!FileSystem.exists(targetDirectory)) {
