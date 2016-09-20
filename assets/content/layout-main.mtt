@@ -7,23 +7,23 @@
   <title>::title::</title>
 
   <base href="::baseHref::"/>
-  <link rel="alternate" type="application/atom+xml" title="RSS Feed haxedevelop.org" href="http://haxedevelop.org/rss.xml" />
+  <link href="http://haxedevelop.org/rss.xml" rel="alternate" type="application/atom+xml" title="RSS Feed haxedevelop.org"  />
   
   <!-- general css -->
-  <link rel="stylesheet" type="text/css" href="http://haxe.org/css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="css/styles.min.css"/>
-  <link rel="icon" href="http://haxedevelop.org/favicon.ico"/>
-  <meta property="og:url" content="::absoluteUrl::" />
+  <link href="http://haxe.org/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://haxedevelop.org/favicon.ico" rel="icon" />
+  <link href="::absoluteUrl::" rel="canonical" />
 
-	<meta name="description" content="::currentPage.description::" ::cond currentPage.description != null:: />
+  <meta name="description" content="::currentPage.description::" ::cond currentPage.description != null:: />
 
   <!-- Twitter Card data -->
   <meta name="twitter:creator" content="@haxe_org"/>
 
   <!-- Open Graph data -->
   <meta property="og:title" content="::title::" />
-	<meta property="og:description" content="::currentPage.description::" ::cond currentPage.description != null:: />
-  <meta property="og:type" content="article" />
+  <meta property="og:description" content="::currentPage.description::" ::cond currentPage.description != null:: />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="::absoluteUrl::" />
   <meta property="og:image" content="http://haxedevelop.org/img/share.jpg" />
   
@@ -67,7 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </li>
           <!-- required submenu  on every subsite, put class="active" on   -->
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="/documentation/">Documentation <b class="caret"></b></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#documentation">Documentation <b class="caret"></b></a>
 
             <ul class="dropdown-menu">
               <li>
@@ -120,8 +120,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </li>
             </ul>
           </li>
-
-
           
           <li class="divider"></li>
           <!-- required submenu  on every subsite, put class="active" on   -->
@@ -130,27 +128,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <ul class="dropdown-menu">
               <li>
-                <a href="http://haxe.org/documentation/">Introduction</a>
-              </li>
-              <li class="divider"></li>
-              <!--li>
-                <a href="http://haxe.org/tutorial/">Tutorials</a>
-              </li-->
-              <li>
-                <a href="http://haxe.org/manual/">Manual</a>
-              </li>
-              <li>
-                <a href="http://api.haxe.org">API Documentation</a>
+                <a href="https://haxe.org/documentation/" rel="external">Introduction</a>
               </li>
               <li class="divider"></li>
               <li>
-                <a href="http://try.haxe.org">Try Haxe</a>
+                <a href="https://haxe.org/manual/" rel="external">Manual</a>
               </li>
               <li>
-                <a href="http://lib.haxe.org">Haxelib</a>
+                <a href="http://api.haxe.org" rel="external">API Documentation</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="http://try.haxe.org" rel="external">Try Haxe</a>
               </li>
               <li>
-                <a href="http://code.haxe.org">Code Cookbook</a>
+                <a href="https://lib.haxe.org" rel="external">Haxelib</a>
+              </li>
+              <li>
+                <a href="http://code.haxe.org" rel="external">Code Cookbook</a>
               </li>
             </ul>
           </li>
@@ -159,47 +154,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <ul class="dropdown-menu">
               <li>
-                <a href="https://github.com/HaxeFoundation/haxedevelop.org"><i class="fa fa-github"></i> Github</a>
+                <a href="https://github.com/HaxeFoundation/haxedevelop.org" rel="external"><i class="fa fa-github"></i> Github</a>
               </li>
               <li>
-                <a href="https://github.com/HaxeFoundation/haxedevelop.org/issues"><i class="fa fa-github"></i> Bug reports</a>
+                <a href="https://github.com/HaxeFoundation/haxedevelop.org/issues" rel="external"><i class="fa fa-github"></i> Bug reports</a>
               </li>
               <li>
-                <a href="http://stackoverflow.com/questions/tagged/haxe"><i class="fa fa-stack-exchange"></i> Stack Overflow</a>
+                <a href="http://stackoverflow.com/questions/tagged/haxe" rel="external"><i class="fa fa-stack-exchange"></i> Stack Overflow</a>
               </li>
               <li>
-                <a href="http://groups.google.com/group/haxelang?hl=en"><i class="fa fa-envelope-o"></i> Google Groups</a>
+                <a href="http://groups.google.com/group/haxelang?hl=en" rel="external"><i class="fa fa-envelope-o"></i> Google Groups</a>
               </li>
               <li>
-                <a href="http://webchat.freenode.net/?channels=haxe"><i class="fa fa-comments-o"></i> IRC</a>
+                <a href="http://webchat.freenode.net/?channels=haxe" rel="nofollow external"><i class="fa fa-comments-o"></i> IRC</a>
               </li>
               <li>
-                <a href="http://haxe.org/blog"><i class="fa fa-rss"></i> Blog</a>
-              </li>
-              <li class="divider"></li>
-              <li>
-                <a href="https://plus.google.com/communities/103302587329918132234"><i class="fa fa-google-plus"></i> Google+</a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/haxe.org/"><i class="fa fa-facebook"></i> Facebook</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/search?q=%23haxe"><i class="fa fa-twitter"></i> #haxe</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/haxelang"><i class="fa fa-twitter"></i> @haxelang</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/haxe_org"><i class="fa fa-twitter"></i> @haxe_org</a>
+                <a href="https://haxe.org/blog" rel="external"><i class="fa fa-rss"></i> Blog</a>
               </li>
               <li class="divider"></li>
               <li>
-                <a href="http://haxe.org/foundation/contact.html">Contact</a>
+                <a href="https://plus.google.com/communities/103302587329918132234" rel="external"><i class="fa fa-google-plus"></i> Google+</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/haxe.org/" rel="external"><i class="fa fa-facebook"></i> Facebook</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/search?q=%23haxe" rel="external"><i class="fa fa-twitter"></i> #haxe</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/haxelang" rel="external"><i class="fa fa-twitter"></i> @haxelang</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/haxe_org" rel="external"><i class="fa fa-twitter"></i> @haxe_org</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="https://haxe.org/foundation/contact.html" rel="external">Contact</a>
               </li>
             </ul>
           </li>
         </ul>
-
       </div>
     </div>
   </div>
@@ -210,22 +204,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <footer class="section dark site-footer">
   <div class="container">
     <div class="copyright">
-      <p>HaxeDevelop a custom distribution of <a href="http://www.flashdevelop.org" class="flashdevelop">FlashDevelop</a></p>
-      <p>&copy;::year::&nbsp;<a class="hf-link" href="http://haxe.org/foundation/" title="Haxe Foundation Website">Haxe Foundation</a> |
-      &nbsp;<a href="https://github.com/markknol/haxedevelop.org/tree/master/assets/content" title="HaxeDevelop.org on Github">Contribute to this page</a> | 
-        &nbsp;<a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop" title="HaxeDevelop on Github">Contribute to HaxeDevelop</a></p>
+      <p>HaxeDevelop a custom distribution of <a href="http://www.flashdevelop.org" class="flashdevelop" rel="external">FlashDevelop</a></p>
+      <p>&copy;::year::&nbsp;<a class="hf-link" href="https://haxe.org/foundation/" title="Haxe Foundation Website" rel="external">Haxe Foundation</a> |
+      &nbsp;<a href="https://github.com/markknol/haxedevelop.org/tree/master/assets/content" title="HaxeDevelop.org on Github" rel="external nofollow">Contribute to this page</a> | 
+        &nbsp;<a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop" title="HaxeDevelop on Github" rel="external nofollow">Contribute to HaxeDevelop</a></p>
     </div>
   </div>
 </footer>
 
 
 
-<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"/>
-<!-- link rel="stylesheet" type="text/css" href="http://haxe.org/css/style.css"/ -->
-
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
 
 <!-- navigation css -->
-<link rel="stylesheet" type="text/css" href="css/haxe-nav.min.css"/>
+<link href="css/haxe-nav.min.css" rel="stylesheet" type="text/css" />
 
 
 <script src="http://haxe.org/js/jquery.min.js"></script>
