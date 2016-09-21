@@ -30,14 +30,19 @@
           <hr/>
           <p itemprop="blogPost">::raw currentPage.pageContent.split("</h1>").pop()::</p>
           <hr/>
-            <div id="fb-root"></div>
+            <!-- Load Facebook SDK for JavaScript -->
+            <div id="fb-root" style="display:inline-block"></div>
             <script>(function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
               js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1262989380379424";
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
+
+            <!-- FB like button code -->
+            <div class="fb-like" data-href="::absoluteUrl::" style="display:inline-block" data-layout="button_count" data-action="like" data-show-faces="true"></div>
+            
             &nbsp;&nbsp;
             <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           <hr/>

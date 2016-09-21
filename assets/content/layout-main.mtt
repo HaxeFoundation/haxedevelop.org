@@ -206,8 +206,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="copyright">
       <p>HaxeDevelop a custom distribution of <a href="http://www.flashdevelop.org" class="flashdevelop" rel="external">FlashDevelop</a></p>
       <p>&copy;::year::&nbsp;<a class="hf-link" href="https://haxe.org/foundation/" title="Haxe Foundation Website" rel="external">Haxe Foundation</a> |
+      &nbsp;<a href="/rss.xml" class="rss-link"><i class="fa fa-rss-square" aria-hidden="true" style="margin-right:6px"></i>RSS feed</a> |
       &nbsp;<a href="https://github.com/markknol/haxedevelop.org/tree/master/assets/content" title="HaxeDevelop.org on Github" rel="external nofollow">Contribute to this page</a> | 
-        &nbsp;<a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop" title="HaxeDevelop on Github" rel="external nofollow">Contribute to HaxeDevelop</a></p>
+      &nbsp;<a href="https://github.com/fdorg/flashdevelop/tree/distro_haxedevelop" title="HaxeDevelop on Github" rel="external nofollow">Contribute to HaxeDevelop</a></p>
     </div>
   </div>
 </footer>

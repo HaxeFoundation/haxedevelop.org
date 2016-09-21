@@ -301,3 +301,5 @@ article table td:first-child, article table th:first-child {
   margin-bottom:2em;
   padding: 1em 2em;
 }
+
+.twitter-share-button { vertical-align: text-bottom !important; }
