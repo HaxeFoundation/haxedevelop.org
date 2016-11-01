@@ -17,6 +17,8 @@
           <li ::attr class if(currentPage == blog) "active" else ""::><small>::blog.customData.date::</small> <a href="::blog.outputPath::">::blog.title::</a></li>
           ::end::
         </ul>
+		<br/>
+		<a href="http://haxedevelop.org/rss.xml"><span class="fa fa-rss"></span> RSS feed</a> 
       </nav>
       <div class="span8">
         ::set isBlogHome = currentPage.customData.blogs.indexOf(currentPage)==-1::
