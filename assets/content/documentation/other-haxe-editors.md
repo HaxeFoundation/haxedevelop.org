@@ -10,7 +10,7 @@ There are other editors available which can be used to develop Haxe.
 | [VIM](#vim) |Mac, Linux | Free | Open Source | [Vaxe plugin](https://github.com/jdonaldson/vaxe) |
 | [Atom](#atom) | Windows, Mac, Linux, FreeBSD | Free | Open Source | [language-haxe](https://atom.io/packages/language-haxe) |
 | [Brackets](#brackets) | Windows, Mac, Linux | Free | Open Source | [haxe-brackets-extension](https://github.com/jasononeil/haxe-brackets-extension) |
-| [VSCode](#vscode) | Windows, Mac, Linux | Free | Open Source | [vscode-haxe](https://marketplace.visualstudio.com/items?itemName=haxedevs.haxe) |
+| [VSCode](#vscode) | Windows, Mac, Linux | Free | Open Source | [vscode-haxe](https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe) |
 | [Sublime Text](#sublimetext) | Windows, Mac, Linux | Evaluated free + purchased licence |Commercial | [haxe-sublime2-bundle](https://github.com/clemos/haxe-sublime2-bundle) |
 
 <a name="intellij"></a>
@@ -113,7 +113,7 @@ Atom is a text editor that's modern, approachable, yet hackable to the core—a 
 	<dd>
 		<ul>
 			<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-			<li><a href="https://marketplace.visualstudio.com/items?itemName=haxedevs.haxe">Haxe language extension for Visual Studio Code</a></li>
+			<li><a href="https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe">Haxe language extension for Visual Studio Code</a></li>
 		</ul>
 	</dd>
 </dl>
