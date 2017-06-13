@@ -6,12 +6,12 @@ There are other editors available which can be used to develop Haxe.
 | Name | Platform | Price | License | Plugin |
 | ---- | ---- | ---- | ---- | ---- |
 | HaxeDevelop | Windows | Free | Open Source | - |
-| [IntelliJ IDEA](#intellij) | Windows, Mac, Linux | Free | Apache License 2.0 | [Haxe Support](http://plugins.jetbrains.com/plugin/6873?pr=idea) |
-| [VIM](#vim) |Mac, Linux | Free | Open Source | [Vaxe plugin](https://github.com/jdonaldson/vaxe) |
-| [Atom](#atom) | Windows, Mac, Linux, FreeBSD | Free | Open Source | [language-haxe](https://atom.io/packages/language-haxe) |
-| [Brackets](#brackets) | Windows, Mac, Linux | Free | Open Source | [haxe-brackets-extension](https://github.com/jasononeil/haxe-brackets-extension) |
-| [VSCode](#vscode) | Windows, Mac, Linux | Free | Open Source | [vscode-haxe](https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe) |
-| [Sublime Text](#sublimetext) | Windows, Mac, Linux | Evaluated free + purchased licence |Commercial | [haxe-sublime2-bundle](https://github.com/clemos/haxe-sublime2-bundle) |
+| [IntelliJ IDEA](other-haxe-editors.html#intellij) | Windows, Mac, Linux | Free | Apache License 2.0 | [Haxe Support](http://plugins.jetbrains.com/plugin/6873?pr=idea) |
+| [VIM](other-haxe-editors.html#vim) |Mac, Linux | Free | Open Source | [Vaxe plugin](https://github.com/jdonaldson/vaxe) |
+| [Atom](other-haxe-editors.html#atom) | Windows, Mac, Linux, FreeBSD | Free | Open Source | [language-haxe](https://atom.io/packages/language-haxe) |
+| [Brackets](other-haxe-editors.html#brackets) | Windows, Mac, Linux | Free | Open Source | [haxe-brackets-extension](https://github.com/jasononeil/haxe-brackets-extension) |
+| [VSCode](other-haxe-editors.html#vscode) | Windows, Mac, Linux | Free | Open Source | [vscode-haxe](https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe) |
+| [Sublime Text](other-haxe-editors.html#sublimetext) | Windows, Mac, Linux | Evaluated free + purchased licence |Commercial | [haxe-sublime2-bundle](https://github.com/clemos/haxe-sublime2-bundle) |
 
 <a name="intellij"></a>
 
