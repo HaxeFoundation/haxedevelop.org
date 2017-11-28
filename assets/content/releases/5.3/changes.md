@@ -10,7 +10,7 @@ Once again as this is a major release we will follow up with minor releases asap
 - Haxe hxml project import added
 - Code completion and generation improvements
 - Full theming support added with one new theme
-- Overall UI usability and perf improvements
+- Overall UI usability and performance improvements
 - SourceControl improvements
 - Diagnostics completion added
 - Multiple results panel support added
