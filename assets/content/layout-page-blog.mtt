@@ -18,7 +18,7 @@
           ::end::
         </ul>
 		<br/>
-		<a href="http://haxedevelop.org/rss.xml"><span class="fa fa-rss"></span> RSS feed</a> 
+		<a href="//haxedevelop.org/rss.xml"><span class="fa fa-rss"></span> RSS feed</a> 
       </nav>
       <div class="span8">
         ::set isBlogHome = currentPage.customData.blogs.indexOf(currentPage)==-1::
@@ -52,7 +52,7 @@
             <div id="disqus_thread"></div>
               <script>
               var disqus_config = function () {
-                  this.page.url = 'http://haxedevelop.org/::currentPage.outputPath::'; 
+                  this.page.url = 'https://haxedevelop.org/::currentPage.outputPath::'; 
                   this.page.identifier = '::currentPage.outputPath.split(".html")[0]::'; 
               };
               

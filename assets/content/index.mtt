@@ -2,7 +2,7 @@
 	<div class="container">
 		<img src="img/haxedevelop.svg?v=2" class="HaxeDevelop logo" itemprop="logo" alt="HaxeDevelop" />
 		<h3 class="lead">
-			Build and debug cross platform applications using <a href="http://haxe.org/">Haxe</a>. <br/>
+			Build and debug cross platform applications using <a href="https://haxe.org/">Haxe</a>. <br/>
 			HaxeDevelop is free and available on Windows.
 		</h3>
 		<p>

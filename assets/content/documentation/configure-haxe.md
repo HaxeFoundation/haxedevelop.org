@@ -8,7 +8,7 @@ If you use multiple Haxe versions you can list all compiler versions here.
 
 <img src="img/configure-haxe-sdk.jpg" alt="Configure Haxe SDK"/>
 
-> Download specific Haxe versions here <http://haxe.org/download/list/>
+> Download specific Haxe versions here <https://haxe.org/download/list/>
   
 ### Specific Haxe version per project
 
@@ -30,13 +30,13 @@ The used libraries will be shown as _References_ in the Project Panel:
   
 <img src="img/haxedevelop-references.JPG" alt="HaxeDevelop Haxe library references in Project Panel"/>
 
-> Download more than 1000 free Haxelibs on <http://lib.haxe.org>
+> Download more than 1000 free Haxelibs on <https://lib.haxe.org>
 
 ### Set Haxe compiler defines
 
 <img src="img/haxedevelop-defines.JPG" alt="Configure Haxe Defines in HaxeDevelop"/>
 
-> Read more about [conditional compilation](http://haxe.org/manual/lf-condition-compilation.html) and [compiler usage](http://haxe.org/manual/compiler-usage.html).
+> Read more about [conditional compilation](https://haxe.org/manual/lf-condition-compilation.html) and [compiler usage](https://haxe.org/manual/compiler-usage.html).
   
 ### Configure completion  
 

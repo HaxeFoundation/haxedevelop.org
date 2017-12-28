@@ -22,7 +22,7 @@ It has growing support within the Haxe community.
 The full edition and the free community edition, support the [Haxe plugin](https://plugins.jetbrains.com/plugin/6873?pr=idea), which is not easy to install. 
 But can provide a fuller native IDE experience for Mac or Linux users.
   
-<p class="text-center"><img src="http://haxe.org/img/ide/idea.png" alt="IntelliJ IDEA screenshot" /></p>
+<p class="text-center"><img src="https://haxe.org/img/ide/idea.png" alt="IntelliJ IDEA screenshot" /></p>
 <dl class="well">
 	<dt>Platform</dt>
 	<dd>Windows, Mac, Linux</dd>
@@ -41,7 +41,7 @@ But can provide a fuller native IDE experience for Mac or Linux users.
 
 ## VIM (With Vaxe Plugin)
 
-<p class="text-center"><img src="http://haxe.org/img/ide/vaxe.png" alt="VIM with Vaxe screenshot demonstrating Lime build options." /></p>
+<p class="text-center"><img src="https://haxe.org/img/ide/vaxe.png" alt="VIM with Vaxe screenshot demonstrating Lime build options." /></p>
 
 <dl class="well">
 	<dt>Platform</dt>
@@ -126,7 +126,7 @@ Sublime Text does not provide accurate code completion. Nor does it support "pro
 
 Sublime Text is free-to-use, with reminders to pay for continued use.
 
-<p class="text-center"><img src="http://haxe.org/img/ide/sublime.png" alt="Sublime Text screenshot demonstrating Haxe auto-completion" /></p>
+<p class="text-center"><img src="https://haxe.org/img/ide/sublime.png" alt="Sublime Text screenshot demonstrating Haxe auto-completion" /></p>
 
 
 <dl class="well">

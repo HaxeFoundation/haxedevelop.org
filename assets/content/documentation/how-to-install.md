@@ -2,7 +2,7 @@
 
 ### Windows
 
-1. Download HaxeDevelop. You can download HaxeDevelop by clicking [here](http://haxedevelop.org/download.html). Click on the "Download" button, and the program will begin downloading to your computer.
+1. Download HaxeDevelop. You can download HaxeDevelop by clicking [here](https://haxedevelop.org/download.html). Click on the "Download" button, and the program will begin downloading to your computer.
 1. Open your "Downloads" folder. After the download is completed, there will be a HaxeDevelop installer. Double click on the installer to begin the installation process.
 1. The installation process you have these settings:
   

@@ -24,7 +24,7 @@
         ::end::
         <hr/>
         <h3>Nightly builds</h3>
-        <a href="http://flashdevelop.org/downloads/builds/">Development builds</a>&nbsp;<sup class="fa fa-external-link"></sup>
+        <a href="//flashdevelop.org/downloads/builds/">Development builds</a>&nbsp;<sup class="fa fa-external-link"></sup>
         
         <hr/>
         <h3>How to install</h3>
@@ -49,7 +49,7 @@
       <p>The Haxe compiler is not implemented in HaxeDevelop and should be downloaded using the App Manager, which is launched on the first run.</p>
       <ul>
         <li><a href="editing.html">Learn HaxeDevelop</a> </li>
-        <li><a href="http://haxe.org">Learn Haxe</a> </li>
+        <li><a href="https://haxe.org">Learn Haxe</a> </li>
       </ul>
     </div>
     <div class="span4">
@@ -60,7 +60,7 @@
         <li><a href="https://github.com/fdorg/flashdevelop/tree/development/Distros"><i class="fa fa-github"></i> HaxeDevelop on Github</a></li>
       </ul>
       <h4>Become a supporter</h4>
-      You can help fund the development of HaxeDevelop and this supported project by <a href="http://haxe.org/foundation/donate.html">making a donation</a> to the Haxe Foundation. 
+      You can help fund the development of HaxeDevelop and this supported project by <a href="https://haxe.org/foundation/donate.html">making a donation</a> to the Haxe Foundation. 
       
     </div>
   </div>

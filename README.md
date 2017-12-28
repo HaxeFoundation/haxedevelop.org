@@ -1,7 +1,7 @@
 # haxedevelop.org
 [![Build Status](https://travis-ci.org/HaxeFoundation/haxedevelop.org.svg?branch=master)](https://travis-ci.org/HaxeFoundation/haxedevelop.org)
 
-> Sources for [haxedevelop.org](http://haxedevelop.org)
+> Sources for [haxedevelop.org](https://haxedevelop.org)
 
 This project contains a static website generator, it is mixing templates and markdown files into plain HTML files.
 
@@ -14,7 +14,7 @@ This project contains a static website generator, it is mixing templates and mar
 
 ### Running a local copy
 
-To run the project you need [Haxe](http://haxe.org).
+To run the project you need [Haxe](https://haxe.org).
 
 Call `build-site.bat` to re-generate the output files.
 
@@ -24,9 +24,9 @@ Please edit the website files, template and markdown in the [assets folder](http
 
 ### Contributing to the generator
 
-You need [Haxe](http://haxe.org) 3.2+ installed.
+You need [Haxe](https://haxe.org) 3.2+ installed.
 
-The static site generator source depends on [hxtemplo](http://lib.haxe.org/p/hxtemplo) and [markdown](http://lib.haxe.org/p/markdown). Install from haxelib:
+The static site generator source depends on [hxtemplo](https://lib.haxe.org/p/hxtemplo) and [markdown](https://lib.haxe.org/p/markdown). Install from haxelib:
 ```
 haxelib install hxtemplo
 haxelib install markdown

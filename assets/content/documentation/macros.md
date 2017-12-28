@@ -55,7 +55,7 @@ When your script is completed, you want to make sure the script is only compiled
 ExecuteScript|Internal;$(BaseDir)\FlattenXML.cs
 ```
 
-> Note: Please don't confuse macro scripts with the [Haxe Macros](http://haxe.org/manual/macro.html), this is something different.
+> Note: Please don't confuse macro scripts with the [Haxe Macros](https://haxe.org/manual/macro.html), this is something different.
 
 ## Snippets editor
 
