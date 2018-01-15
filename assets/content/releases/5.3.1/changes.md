@@ -12,10 +12,10 @@ This fixes some issues found after the previous release, enjoy. Thanks again to 
 - AIR28 and FP28 lib updates
 - UI and theming improvements
 - App stability improvements
-- Minor menu item relocationing
+- Minor menu item relocating
 - FalconJS compiler SWF support added
-- Haxe diagnostics improments
-- Support for import.hx added
+- Haxe diagnostics improvements 
+- Support for [`import.hx`](https://haxe.org/blog/importhx-intro/) added
 - Version control fixes
 
 NOTE: Some translations are partly out of date.
