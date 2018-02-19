@@ -14,8 +14,8 @@ hxml:
 install:
   - yes | haxelib install HaxeDevelop.hxml
   - haxe HaxeDevelop.hxml
-  - npm install -g less
-  - npm install -g less-plugin-clean-css
+  - npm install -g less@2.7
+  - npm install -g less-plugin-clean-css@1.5
   - npm install -g markdown-spellcheck
   - lessc assets/includes/css/haxe-nav.css assets/includes/css/haxe-nav.min.css --clean-css="--s1 --advanced"
   - lessc assets/includes/css/styles.css assets/includes/css/styles.min.css --clean-css="--s1 --advanced"
