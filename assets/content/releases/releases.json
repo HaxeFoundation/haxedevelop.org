@@ -1,6 +1,14 @@
 {
   "releases": [
     {
+      "version": "5.3.2", 
+      "date": "19-02-2018",
+      "links": {
+        "installer": "https://github.com/HaxeFoundation/haxedevelop.org/releases/download/v5.3.2/HaxeDevelop-5.3.2.exe",
+        "standalone": "https://github.com/HaxeFoundation/haxedevelop.org/releases/download/v5.3.2/HaxeDevelop-5.3.2.zip"
+      }
+    },
+    {
       "version": "5.3.1", 
       "date": "15-01-2018",
       "links": {
