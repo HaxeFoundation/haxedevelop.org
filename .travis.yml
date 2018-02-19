@@ -16,7 +16,7 @@ install:
   - haxe HaxeDevelop.hxml
   - npm install -g less@2.7
   - npm install -g less-plugin-clean-css@1.5
-  - npm install -g markdown-spellcheck
+  # - npm install -g markdown-spellcheck
   - lessc assets/includes/css/haxe-nav.css assets/includes/css/haxe-nav.min.css --clean-css="--s1 --advanced"
   - lessc assets/includes/css/styles.css assets/includes/css/styles.min.css --clean-css="--s1 --advanced"
   - mkdir output
@@ -24,7 +24,7 @@ install:
 
 script:
   # spellcheck
-  - mdspell "**/*.md" --ignore-numbers --ignore-acronyms --report
+  # - mdspell "**/*.md" --ignore-numbers --ignore-acronyms --report
 
 deploy:
   provider: script
