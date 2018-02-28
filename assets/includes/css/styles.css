@@ -303,3 +303,17 @@ article table td:first-child, article table th:first-child {
 }
 
 .twitter-share-button { vertical-align: text-bottom !important; }
+
+.btn.btn-info:hover {
+	background-color: #257fc2;
+}
+
+.btn.btn-info {
+	background-color: #257fc2;
+	background-image: -moz-linear-gradient(top, #4e97cd, #257fc2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4e97cd), to(#257fc2));
+	background-image: -webkit-linear-gradient(top, #4e97cd, #257fc2);
+	background-image: -o-linear-gradient(top, #4e97cd, #257fc2);
+	background-image: linear-gradient(to bottom, #4e97cd, #257fc2); 
+	margin-bottom: 3px;
+}
