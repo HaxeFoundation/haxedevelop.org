@@ -62,6 +62,19 @@ Region folding is possible with HaxeDevelop using special comments. 'region' and
 //} end region 
 ```
 
+#### Task List
+
+In order to add, remove or edit task 'switches', you go to:  
+_Tools -> Program Settings -> TaskListPanel -> Group Values_
+
+To add something to the tasklist, type the following: 
+
+```haxe
+//TODO something I need to do
+//BUG some annoying bug
+//FIXME some restore needed 
+```
+
 ### Debugging 
 
 #### Navigate in results
