@@ -51,6 +51,17 @@ to move the current selected line up or down.
 
  <img src="img/haxedevelop-movelines.gif" alt="Moving lines in HaxeDevelop" />
 
+
+#### Regions
+
+Region folding is possible with HaxeDevelop using special comments. 'region' and 'endregion' are cosmetic but can be useful information.
+
+```haxe
+//{ region name
+ ...
+//} end region 
+```
+
 ### Debugging 
 
 #### Navigate in results
