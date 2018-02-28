@@ -75,6 +75,8 @@ To add something to the tasklist, type the following:
 //FIXME some restore needed 
 ```
 
+<img src="img/haxedevelop-tasklist.png" alt="Task List in HaxeDevelop" />
+
 ### Debugging 
 
 #### Navigate in results
