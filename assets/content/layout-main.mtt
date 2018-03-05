@@ -124,30 +124,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <li class="divider"></li>
           <!-- required submenu  on every subsite, put class="active" on   -->
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="/documentation/">Learn Haxe <b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li>
-                <a href="https://haxe.org/documentation/" rel="external">Introduction</a>
-              </li>
-              <li class="divider"></li>
-              <li>
-                <a href="https://haxe.org/manual/" rel="external">Manual</a>
-              </li>
-              <li>
-                <a href="https://api.haxe.org" rel="external">API Documentation</a>
-              </li>
-              <li class="divider"></li>
-              <li>
-                <a href="https://try.haxe.org" rel="external">Try Haxe</a>
-              </li>
-              <li>
-                <a href="https://lib.haxe.org" rel="external">Haxelib</a>
-              </li>
-              <li>
-                <a href="https://code.haxe.org" rel="external">Code Cookbook</a>
-              </li>
-            </ul>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="https://haxe.org/documentation/">Learn Haxe <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+				<li>
+					<a href="https://haxe.org/documentation/introduction/" rel="external">Introduction</a>
+				</li>
+				<li>
+					<a href="https://haxe.org/manual/" rel="external">Manual</a>
+				</li>
+				<li>
+					<a href="https://code.haxe.org" rel="external">Code Cookbook</a>
+				</li>
+				<li>
+					<a href="https://api.haxe.org" rel="external">API Documentation</a>
+				</li>
+				<li class="divider"></li>
+				<li>
+					<a href="https://haxe.org/videos/" rel="external">Videos</a>
+				</li>
+				<li class="divider"></li>
+				<li>
+					<a href="https://try.haxe.org" rel="external">Try Haxe online</a>
+				</li>
+				<li>
+					<a href="https://lib.haxe.org" rel="external">Haxelib</a>
+				</li>
+			</ul>
           </li>
           <li class=" dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Connect <b class="caret"></b></a>
