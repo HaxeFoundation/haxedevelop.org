@@ -37,4 +37,5 @@ haxelib install markdown
 1. Add binaries here https://github.com/HaxeFoundation/haxedevelop.org/releases
 1. Create `$version/CHANGES.md` file here https://github.com/HaxeFoundation/haxedevelop.org/tree/master/assets/content/releases
 1. Register version + binaries here https://github.com/HaxeFoundation/haxedevelop.org/blob/master/assets/content/releases/releases.json
+1. Update `latest.txt` https://github.com/HaxeFoundation/haxedevelop.org/blob/master/assets/includes/latest.txt
 1. Done. Travis will build the site and put it online automatically.
