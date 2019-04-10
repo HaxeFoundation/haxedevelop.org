@@ -34,6 +34,8 @@ haxelib install markdown
 
 ### Publish new HaxeDevelop binaries on the website
 
+> (Collaborators only)
+
 1. Add binaries here https://github.com/HaxeFoundation/haxedevelop.org/releases
 1. Create `$version/CHANGES.md` file here https://github.com/HaxeFoundation/haxedevelop.org/tree/master/assets/content/releases
 1. Register version + binaries here https://github.com/HaxeFoundation/haxedevelop.org/blob/master/assets/content/releases/releases.json
