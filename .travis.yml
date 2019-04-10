@@ -1,20 +1,21 @@
 language: haxe
 
 haxe:
-  - "3.2.1"
+  - "3.4.7"
   - development
 
-hxml:
-  - HaxeDevelop.hxml
+matrix:
+  allow_failures:
+    - haxe: development
 
 install:
   - yes | haxelib install HaxeDevelop.hxml
-  - haxe HaxeDevelop.hxml
   - npm install -g less@2.7
   - npm install -g less-plugin-clean-css@1.5
   # - npm install -g markdown-spellcheck
   - lessc assets/includes/css/haxe-nav.css assets/includes/css/haxe-nav.min.css --clean-css="--s1 --advanced"
   - lessc assets/includes/css/styles.css assets/includes/css/styles.min.css --clean-css="--s1 --advanced"
+  - haxe HaxeDevelop.hxml
   - mkdir output
   - neko Generator.n
 
@@ -27,7 +28,7 @@ deploy:
   script: haxe deploy.hxml
   on:
     branch: master
-    haxe: "3.2.1"
+    haxe: "3.4.7"
   skip_cleanup: true
 
 notifications:
