@@ -31,3 +31,10 @@ The static site generator source depends on [hxtemplo](https://lib.haxe.org/p/hx
 haxelib install hxtemplo
 haxelib install markdown
 ```
+
+### Publish new HaxeDevelop binaries on the website
+
+1. Add binaries here https://github.com/HaxeFoundation/haxedevelop.org/releases
+1. Create `$version/CHANGES.md` file here https://github.com/HaxeFoundation/haxedevelop.org/tree/master/assets/content/releases
+1. Register version + binaries here https://github.com/HaxeFoundation/haxedevelop.org/blob/master/assets/content/releases/releases.json
+1. Done. Travis will build the site and put it online automatically.
