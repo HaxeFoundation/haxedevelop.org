@@ -1,6 +1,6 @@
 # Configure Haxe
 
-### Set Haxe SDK versions
+### Set Haxe compiler version
 
 _Tools > Program Settings > HaxeContext > Installed Haxe SDKs_
 
@@ -10,7 +10,7 @@ If you use multiple Haxe versions you can list all compiler versions here.
 
 > Download specific Haxe versions here <https://haxe.org/download/list/>
   
-### Specific Haxe version per project
+### Set Haxe version per project
 
 _Project > Properties > SDK_
 
@@ -18,7 +18,7 @@ You can define a specific Haxe SDK for a project. This used version is saved in 
 
 <img src="img/configure-haxe-project.jpg" alt="Set Haxe SDK in HaxeDevelop project"/>
 
-### Configure Haxe libraries 
+### Add Haxe libraries to the project
 
 _Project > Properties > Compiler Options > Libraries_
 
@@ -38,7 +38,7 @@ The used libraries will be shown as _References_ in the Project Panel:
 
 > Read more about [conditional compilation](https://haxe.org/manual/lf-condition-compilation.html) and [compiler usage](https://haxe.org/manual/compiler-usage.html).
   
-### Configure completion  
+### Configure completion mode settings 
 
 _Tools > Program Settings > HaxeContext > Completion modes_
 
