@@ -54,7 +54,7 @@ to move the current selected line up or down.
 
 #### Regions
 
-Region folding is possible with HaxeDevelop using special comments. 'region' and 'endregion' are cosmetic but can be useful information.
+Region folding is possible with HaxeDevelop using special comments. 'region' and 'end region' are cosmetic but can be useful information.
 
 ```haxe
 //{ region name
@@ -67,7 +67,7 @@ Region folding is possible with HaxeDevelop using special comments. 'region' and
 In order to add, remove or edit task 'switches', you go to:  
 _Tools -> Program Settings -> TaskListPanel -> Group Values_
 
-To add something to the tasklist, type the following: 
+To add something to the task list, type the following: 
 
 ```haxe
 //TODO something I need to do

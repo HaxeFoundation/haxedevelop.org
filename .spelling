@@ -109,11 +109,17 @@ addEventListener
 dt
 DateTools
 Shift-F4
+_F4_
+TaskListPanel
  - assets/content/documentation/language.md
 _
+CTRL-B_
+_or_
+Text_
  - assets/content/documentation/macros.md
 RunSnippet
 ReadKey
+_Macros
  - assets/content/documentation/themes.md
 theme.fdi
  - assets/content/releases/5.1.1/changes.md
@@ -123,3 +129,10 @@ flump
 resx
  - assets/content/releases/5.3/changes.md
 hxml
+ - assets/content/documentation/plugins.md
+_Tools
+ - assets/content/releases/5.3.2/changes.md
+toString
+as3
+ - assets/content/releases/5.3.3/changes.md
+CodeRefactor
