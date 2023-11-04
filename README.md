@@ -1,4 +1,4 @@
-# The project is not developped anymore
+# The project is not developed anymore
 # see https://haxe.org/documentation/introduction/editors-and-ides.html for Haxe IDEs recommendation
  
 <br />
