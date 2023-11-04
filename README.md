@@ -1,7 +1,12 @@
-# haxedevelop.org
+# The project is not developped anymore
+# see https://haxe.org/documentation/introduction/editors-and-ides.html for Haxe IDEs recommendation
+ 
+<br />
+ 
+## haxedevelop.org
 [![Build Status](https://travis-ci.org/HaxeFoundation/haxedevelop.org.svg?branch=master)](https://travis-ci.org/HaxeFoundation/haxedevelop.org)
 
-> Sources for [haxedevelop.org](https://haxedevelop.org)
+> Sources for [https://haxefoundation.github.io/haxedevelop.org/](https://haxefoundation.github.io/haxedevelop.org/)
 
 This project contains a static website generator, it is mixing templates and markdown files into plain HTML files.
 
